@@ -272,7 +272,7 @@
     font-size: 22.222vw;
     line-height: 18.056vw;
     position: relative;
-    color: #0069ff;
+    background: -webkit-linear-gradient(0deg, #0069ff, #00D35A, #000577, #FF9900, #42AEEA); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
     letter-spacing: -0.04em;
     font-family: "KareliaWeb Medium", sans-serif;
 }
