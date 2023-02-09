@@ -3,6 +3,12 @@
     position: relative;
 }
 
+.home-hero-section svg {
+    
+        opacity: .3;
+    }
+
+
 @media (min-width: 992px) {
     .home-hero-section {
         display: flex;
@@ -272,7 +278,7 @@
     font-size: 22.222vw;
     line-height: 18.056vw;
     position: relative;
-    background: -webkit-linear-gradient(0deg, #0069ff, #00D35A, #000577, #FF9900, #42AEEA); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg,#007CF0,#00DFD8;);
     letter-spacing: -0.04em;
     font-family: "KareliaWeb Medium", sans-serif;
 }
