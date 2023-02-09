@@ -284,6 +284,7 @@
     background-image: linear-gradient(90deg,#007CF0,#00DFD8);
     letter-spacing: -0.04em;
     font-family: "KareliaWeb Medium", sans-serif;
+    text-align: center;
    
 }
 .animated-gradient-text_foreground {
