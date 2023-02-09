@@ -1,0 +1,52 @@
+.testimonial .container-left-fluid { padding: 0; }
+
+@media (min-width: 768px) and (max-width: 991px) { .testimonial .container-left-fluid { max-width: 550px; margin: 0 auto; } }
+
+.testimonial .last-section-grid { background: #FFFFFF; }
+
+@media (min-width: 992px) { .testimonial .last-section-grid { grid-column-gap: 90px; grid-template-columns: 1.56fr 2fr; align-items: center; } }
+
+@media (max-width: 991px) { .testimonial .last-section-grid { margin-right: 20px; }
+  .testimonial .last-section-grid:last-child { margin-right: 0; } }
+
+@media (min-width: 992px) { .testimonial .last-section-grid .left-col-wrapper .image-wrapper { padding-bottom: 135%; } }
+
+@media (max-width: 991px) { .testimonial .last-section-grid .left-col-wrapper .image-wrapper { padding-bottom: 140%; } }
+
+.testimonial .last-section-grid .left-col-wrapper .image-wrapper .grid-image { z-index: 1; width: 100%; height: auto; }
+
+@media (max-width: 991px) { .testimonial .last-section-grid .right-col-wrapper { padding: 0px 20px; margin-top: 40px; } }
+
+@media (min-width: 992px) { .testimonial .last-section-grid .right-col-wrapper { max-width: 656px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .testimonial .last-section-grid .right-col-wrapper { margin-top: 0; } }
+
+.testimonial .last-section-grid .right-col-wrapper .small-section-heading { font-size: 12px; line-height: 14px; font-weight: 700; font-family: "KareliaWeb Regular", sans-serif; letter-spacing: 0.03em; text-transform: uppercase; color: #0069ff; }
+
+.testimonial .last-section-grid .right-col-wrapper .section-heading { font-family: "KareliaWeb Medium", sans-serif; font-size: 36px; line-height: 38px; color: #0069ff; letter-spacing: -0.04em; }
+
+@media (max-width: 991px) { .testimonial .last-section-grid .right-col-wrapper .section-heading { margin-top: 20px; } }
+
+@media (min-width: 992px) { .testimonial .last-section-grid .right-col-wrapper .section-heading { margin-top: 24px; } }
+
+@media (min-width: 1200px) { .testimonial .last-section-grid .right-col-wrapper .section-heading { font-size: 62px; line-height: 64px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .testimonial .last-section-grid .right-col-wrapper .section-heading { font-size: 34px; line-height: 32px; } }
+
+.testimonial .last-section-grid .right-col-wrapper p { margin: 24px 0 0 0; letter-spacing: -0.02em; }
+
+@media (min-width: 1200px) { .testimonial .last-section-grid .right-col-wrapper p { margin-left: 100px; font-size: 24px; line-height: 38px; margin-top: 42px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .testimonial .last-section-grid .right-col-wrapper p { margin-left: 30px; line-height: 28px; } }
+
+@media (max-width: 991px) { .testimonial .last-section-grid .right-col-wrapper p { font-size: 18px; line-height: 28px; margin-left: 55px; } }
+
+.testimonial .last-section-grid .right-col-wrapper p span { margin-top: 24px; }
+
+@media (max-width: 991px) { .testimonial .last-section-grid .right-col-wrapper p span { font-size: 12px; line-height: 18px; } }
+
+@media (min-width: 992px) { .testimonial .last-section-grid .right-col-wrapper p span { font-size: 16px; line-height: 26px; } }
+
+.testimonial .last-section-grid .right-col-wrapper p span.name { font-family: "KareliaWeb Medium", sans-serif; color: #1C1C1C; display: block; }
+
+.testimonial .last-section-grid .right-col-wrapper button { min-height: auto; padding: 0; height: 40px; }

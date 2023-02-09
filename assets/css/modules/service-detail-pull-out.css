@@ -1,0 +1,17 @@
+.service-detail-pull-out { margin: 60px 0; }
+
+@media (min-width: 992px) { .service-detail-pull-out { margin: 80px 0; } }
+
+.service-detail-pull-out .container { padding: 0; }
+
+.service-detail-pull-out .pull-out-two-numbers { grid-template-columns: auto; grid-row-gap: 30px; }
+
+@media (min-width: 992px) { .service-detail-pull-out .pull-out-two-numbers { grid-template-columns: 409px 409px; } }
+
+.service-detail-pull-out .pull-out-two-numbers strong { font-family: "KareliaWeb Medium", sans-serif; font-size: 24px; line-height: 30px; letter-spacing: -0.02em; display: block; }
+
+@media (min-width: 992px) { .service-detail-pull-out .pull-out-two-numbers strong { margin-bottom: 16px; font-size: 62px; line-height: 64px; letter-spacing: -0.03em; } }
+
+.service-detail-pull-out .pull-out-two-numbers p { color: #ABABAB; font-family: "KareliaWeb Medium", sans-serif; margin: 0; font-size: 24px; line-height: 30px; }
+
+@media (min-width: 992px) { .service-detail-pull-out .pull-out-two-numbers p { font-size: 40px; line-height: 44px; letter-spacing: -0.02em; margin: 16px 0; } }

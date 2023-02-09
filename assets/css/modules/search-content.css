@@ -1,0 +1,83 @@
+@media (max-width: 991px) { .search-content { margin: 40px 0; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .search-content { margin: 60px 0; } }
+
+.search-content .search-content-wrap { display: grid; }
+
+@media (min-width: 1200px) { .search-content .search-content-wrap { grid-template-columns: 0.4fr 1fr; } }
+
+@media (max-width: 991px) { .search-content .search-content-wrap .result-found { margin-bottom: 40px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .search-content .search-content-wrap .result-found { margin-left: -20px; } }
+
+.search-content .search-content-wrap .result-found .results { font-size: 14px; line-height: 16px; letter-spacing: 0.03em; color: #0069ff; display: block; font-family: "KareliaWeb Bold", sans-serif; }
+
+@media (max-width: 991px) { .search-content .search-content-wrap .result-found .results { margin-bottom: 20px; } }
+
+@media (min-width: 992px) { .search-content .search-content-wrap .result-found .results { margin-bottom: 60px; margin-left: 20px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .search-content .search-content-wrap .result-found .results { margin-bottom: 20px; } }
+
+@media (max-width: 767px) { .search-content .search-content-wrap .result-found .checklist { max-width: 292px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .search-content .search-content-wrap .result-found .checklist { margin-bottom: 60px; } }
+
+@media (max-width: 991px) { .search-content .search-content-wrap .result-found .checklist div { display: inline-block; width: fit-content; margin-right: 20px; margin-bottom: 10px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .search-content .search-content-wrap .result-found .checklist div { display: inline-block; } }
+
+@media (max-width: 991px) { .search-content .search-content-wrap .result-found .checklist input { margin: 5px 0; } }
+
+@media (min-width: 992px) { .search-content .search-content-wrap .result-found .checklist input { margin-bottom: 24px; margin-left: 20px; } }
+
+@media (min-width: 992px) { .search-content .search-content-wrap .result-found .checklist label { font-size: 18px; line-height: 24px; letter-spacing: -0.02em; margin-left: 5px; } }
+
+@media (max-width: 991px) { .search-content .search-content-wrap .result-pages .pages-wrapper { margin-top: 60px; } }
+
+@media (min-width: 992px) { .search-content .search-content-wrap .result-pages .pages-wrapper { margin-top: 120px; } }
+
+.search-content .search-content-wrap .result-pages .pages-wrapper:first-child { margin-top: 0; }
+
+.search-content .search-content-wrap .result-pages h2 { font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (min-width: 992px) { .search-content .search-content-wrap .result-pages h2 { font-size: 40px; line-height: 44px; letter-spacing: -0.02em; margin-bottom: 30px; } }
+
+@media (max-width: 991px) { .search-content .search-content-wrap .result-pages h2 { font-size: 36px; line-height: 38px; letter-spacing: -0.04em; margin-bottom: 20px; } }
+
+@media (min-width: 992px) { .search-content .search-content-wrap .result-pages .card-wrapps { grid-template-columns: auto auto; grid-gap: 30px; display: grid; } }
+
+@media (min-width: 1200px) { .search-content .search-content-wrap .result-pages .services-wrap { grid-template-columns: 362px 362px; } }
+
+@media (min-width: 992px) { .search-content .search-content-wrap .result-pages .services-wrap { grid-template-columns: auto auto; } }
+
+.search-content .search-content-wrap .result-pages .success-warpp { grid-template-columns: 558px; }
+
+.search-content .search-content-wrap .result-pages .newsroom-listing-small-wrap { grid-template-columns: 1fr 1fr; }
+
+.search-content .search-content-wrap .result-pages .newsroom-listing-small-wrap h4 { font-size: 24px; line-height: 30px; letter-spacing: -0.02em; }
+
+.search-content .search-content-wrap .result-pages .career-list { display: inline-flex; flex-direction: column; }
+
+.search-content .search-content-wrap .result-pages .career-list .career-link { color: #0069ff; border-color: #0069ff; letter-spacing: -0.02em; border-bottom: solid 3px #0069ff; }
+
+@media (min-width: 992px) { .search-content .search-content-wrap .result-pages .career-list .career-link { font-size: 40px; line-height: 44px; margin-top: 20px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .search-content .search-content-wrap .result-pages .career-list .career-link { font-size: 30px; } }
+
+@media (max-width: 991px) { .search-content .search-content-wrap .result-pages .career-list .career-link { font-size: 24px; line-height: 30px; margin-right: 20px; margin-bottom: 20px; } }
+
+.search-content .search-content-wrap .result-pages .terms-conditons p { color: #ABABAB; font-family: "KareliaWeb Medium", sans-serif; }
+
+.search-content .search-content-wrap .result-pages .terms-conditons p a { color: #0069ff; }
+
+@media (min-width: 992px) { .search-content .search-content-wrap .result-pages .terms-conditons p { font-size: 40px; line-height: 44px; margin-bottom: 20px; } }
+
+@media (max-width: 991px) { .search-content .search-content-wrap .result-pages .terms-conditons p { font-size: 24px; line-height: 30px; margin-bottom: 20px; } }
+
+.newsroom-listing-small-wrap .news-three-card-text :last-child { margin-bottom: 0; }
+
+@media (max-width: 991px) { .newsroom-listing-small-wrap .news-three-card-text { margin-bottom: 40px; } }
+
+.newsroom-listing-small-wrap { margin: 0; }
+
+@media (min-width: 992px) and (max-width: 1199px) { .subservice-grid .service-card .card { max-width: 413px !important; } }

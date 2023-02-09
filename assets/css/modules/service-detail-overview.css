@@ -1,0 +1,25 @@
+@media (max-width: 991px) { .services-overview { margin: 60px 0 90px 0; } }
+
+@media (min-width: 992px) { .services-overview { margin: 0px auto 120px auto; padding-top: 140px; } }
+
+@media (min-width: 992px) { .services-overview .container { width: 950px; } }
+
+.services-overview h2 { line-height: 16px; font-family: "KareliaWeb Bold", sans-serif; color: #0069ff; margin-bottom: 20px; letter-spacing: 0.04em; text-transform: uppercase; }
+
+@media (max-width: 991px) { .services-overview h2 { font-size: 12px; } }
+
+@media (min-width: 992px) { .services-overview h2 { font-size: 14px; } }
+
+.services-overview p { color: #1C1C1C; font-family: "KareliaWeb Regular", sans-serif; letter-spacing: unset; }
+
+.services-overview p strong, .services-overview p b { color: #0069ff; }
+
+@media (min-width: 992px) { .services-overview p { letter-spacing: -0.02em; margin: 20px 0px; } }
+
+.services-overview p:first-of-type { font-family: "KareliaWeb Medium", sans-serif; color: #ABABAB; margin: 20px 0; }
+
+.services-overview p:first-of-type strong { color: #0069ff; }
+
+@media (min-width: 992px) { .services-overview p:first-of-type { font-size: 40px; line-height: 44px; letter-spacing: -0.02em; margin: 24px 0; } }
+
+.service-detail-pull-out { margin: 0; }

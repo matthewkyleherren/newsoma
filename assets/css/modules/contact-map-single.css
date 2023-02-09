@@ -1,0 +1,103 @@
+@media (max-width: 767px) { .contact-map-card-grid { padding: 0 20px; } }
+
+.contact-map-single { position: relative; background-color: rgba(220, 220, 220, 0.3); }
+
+@media (max-width: 991px) { .contact-map-single { margin-bottom: 33px; } }
+
+@media (min-width: 992px) { .contact-map-single { margin: 0px 100px 60px 80px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-map-single { margin: 0 0 100px 0; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-map-single:last-child { margin: 0; } }
+
+.contact-map-single .contact-map-single-grid { display: grid; }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid { grid-template-rows: auto auto auto; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-map-single .contact-map-single-grid { grid-template-columns: 0.68fr 0.41fr 0.3fr; } }
+
+@media (min-width: 992px) { .contact-map-single .contact-map-single-grid { grid-template-columns: 0.68fr 0.41fr 0.41fr; height: 460px; } }
+
+.contact-map-single .contact-map-single-grid .contact-map-pos { display: flex; flex-direction: column; }
+
+.contact-map-single .contact-map-single-grid .contact-map-pos button.red-btn { margin-top: 20px; width: fit-content; position: relative; }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid .contact-map-pos button.red-btn { margin-left: 20px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-map-single .contact-map-single-grid .contact-map-pos button.red-btn { min-height: unset; } }
+
+.contact-map-single .contact-map-single-grid .contact-map-pos button.red-btn button { font-weight: unset; }
+
+.contact-map-single .contact-map-single-grid .contact-map-pos button.red-btn small { letter-spacing: -0.02em; font-family: "KareliaWeb Regular", sans-serif; }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid .contact-map-pos button.red-btn small { font-size: 12px; line-height: 0px; position: absolute; left: 0px; font-family: "KareliaWeb Regular", sans-serif; } }
+
+@media (min-width: 992px) { .contact-map-single .contact-map-single-grid .contact-map-pos button.red-btn small { margin-bottom: 24px; font-size: 16px; line-height: 20px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-map-single .contact-map-single-grid .contact-map-pos button.red-btn small { margin-top: 40px; display: block; } }
+
+.contact-map-single .contact-map-single-grid .contact-map-pos iframe { position: relative; }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid .contact-map-pos iframe { height: 215px; order: 2; } }
+
+@media (min-width: 992px) { .contact-map-single .contact-map-single-grid .contact-map-pos iframe { height: 352px; } }
+
+.contact-map-single .contact-map-single-grid .contact-map-img { position: relative; height: 0px; overflow: hidden; }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid .contact-map-img { padding-bottom: 67.18%; } }
+
+@media (min-width: 992px) { .contact-map-single .contact-map-single-grid .contact-map-img { padding-bottom: 174.24%; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-map-single .contact-map-single-grid .contact-map-img { padding-bottom: 196%; } }
+
+.contact-map-single .contact-map-single-grid .contact-map-img.red-dot-bg::before { filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(253%) contrast(103%); }
+
+.contact-map-single .contact-map-single-grid .contact-map-img img { position: absolute; width: 100%; }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid .contact-map-img img { width: 100%; top: 50%; left: 0; transform: translate(0, -50%); } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-map-single .contact-map-single-grid .contact-map-img img { object-fit: cover; width: 100%; height: 100%; } }
+
+.contact-map-single .contact-map-single-grid .contact-map-text { display: flex; flex-direction: column; align-content: space-between; justify-content: space-between; }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid .contact-map-text { margin: 20px 20px 0px 20px; } }
+
+@media (min-width: 992px) { .contact-map-single .contact-map-single-grid .contact-map-text { margin: 26px 96px 24px 24px; } }
+
+.contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-top { height: auto; position: relative; }
+
+.contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-top h4 { font-family: "KareliaWeb Medium", sans-serif; color: #0069ff; }
+
+.contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-top h3 { text-transform: uppercase; line-height: 16px; font-family: "KareliaWeb Bold", sans-serif; color: #0069ff; }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-top h3 { font-size: 12px; letter-spacing: 0.04em; } }
+
+@media (min-width: 992px) { .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-top h3 { font-size: 14px; letter-spacing: 0.03em; } }
+
+.contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-top h4 { letter-spacing: -0.02em; }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-top h4 { font-size: 24px; line-height: 30px; } }
+
+@media (min-width: 992px) { .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-top h4 { margin-top: 10px; font-size: 40px; line-height: 44px; bottom: -36px; } }
+
+.contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom { height: auto; position: relative; }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom { margin-top: 40px; } }
+
+.contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom h5, .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom h6 { font-family: "KareliaWeb Bold", sans-serif; color: #0069ff; }
+
+.contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom h5, .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom h6 { text-transform: uppercase; }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom h5, .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom h6 { font-size: 12px; line-height: 16px; letter-spacing: 0.04em; } }
+
+@media (min-width: 992px) { .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom h5, .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom h6 { font-size: 14px; letter-spacing: 0.03em; } }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom h6 { margin-top: 20px; } }
+
+@media (min-width: 992px) { .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom h6 { margin-top: 40px; } }
+
+.contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom address, .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom a { font-family: "KareliaWeb Regular", sans-serif; color: #1C1C1C; margin-top: 10px; }
+
+@media (max-width: 991px) { .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom address, .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom a { font-size: 18px; line-height: 28px; } }
+
+@media (min-width: 992px) { .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom address, .contact-map-single .contact-map-single-grid .contact-map-text .contact-map-text-bottom a { font-size: 24px; line-height: 38px; letter-spacing: -0.02em; } }

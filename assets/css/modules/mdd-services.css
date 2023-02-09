@@ -1,0 +1,41 @@
+@media (max-width: 991px) { .mdd-services { margin: 60px  0px 0px 0px; } }
+
+@media (min-width: 992px) { .mdd-services { margin: 0; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .mdd-services { padding-bottom: 40px; } }
+
+.mdd-services .mdd-services-wrapper h3 { color: #0069ff; letter-spacing: -0.04em; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (max-width: 991px) { .mdd-services .mdd-services-wrapper h3 { font-size: 36px; line-height: 38px; } }
+
+@media (min-width: 992px) { .mdd-services .mdd-services-wrapper h3 { font-size: 82px; line-height: 80px; margin: 60px 0px 0px 0px; padding: 80px 96px 60px 96px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-services .mdd-services-wrapper h3 { font-size: 62px; line-height: 60px; padding: 0; margin: 0; } }
+
+@media (min-width: 992px) { .mdd-services .mdd-services-wrapper .services-list-wrapper { padding: 60px 96px 0px 96px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-services .mdd-services-wrapper .services-list-wrapper { padding: 0px; } }
+
+@media (min-width: 992px) { .mdd-services .mdd-services-wrapper .services-list-wrapper .services-list { padding-bottom: 60px; } }
+
+.mdd-services .mdd-services-wrapper .services-list-wrapper .services-list h2 { color: #0069ff; letter-spacing: -0.02em; }
+
+@media (max-width: 991px) { .mdd-services .mdd-services-wrapper .services-list-wrapper .services-list h2 { font-size: 24px; line-height: 30px; font-family: "KareliaWeb Medium", sans-serif; margin-bottom: 10px; } }
+
+@media (min-width: 992px) { .mdd-services .mdd-services-wrapper .services-list-wrapper .services-list h2 { font-size: 40px; line-height: 44px; } }
+
+.mdd-services .mdd-services-wrapper .services-list-wrapper .services-list .service-description { color: #0069ff; }
+
+@media (min-width: 992px) { .mdd-services .mdd-services-wrapper .services-list-wrapper .services-list .service-description { font-size: 24px; line-height: 30px; letter-spacing: -0.02em; margin: 20px 0px 10px 0px; } }
+
+@media (max-width: 991px) { .mdd-services .mdd-services-wrapper .services-list-wrapper .services-list .service-description { font-size: 18px; line-height: 28px; } }
+
+.mdd-services .mdd-services-wrapper .services-list-wrapper .services-list ol { list-style: decimal; }
+
+@media (max-width: 991px) { .mdd-services .mdd-services-wrapper .services-list-wrapper .services-list ol { padding: 0 28px; margin-bottom: 60px; } }
+
+@media (min-width: 992px) { .mdd-services .mdd-services-wrapper .services-list-wrapper .services-list ol { padding: 0 25px; } }
+
+@media (min-width: 992px) { .mdd-services .mdd-services-wrapper .services-list-wrapper .services-list ol li { font-size: 24px; line-height: 30px; letter-spacing: -0.03em; margin-bottom: 10px; } }
+
+@media (max-width: 991px) { .mdd-services .mdd-services-wrapper .services-list-wrapper .services-list ol li { font-size: 18px; line-height: 28px; } }

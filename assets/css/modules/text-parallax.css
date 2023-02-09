@@ -1,0 +1,41 @@
+@media (min-width: 992px) { .text-parallax .parallax-layer-1 { padding: 32vw 0; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .text-parallax .grid-image { width: auto !important; height: 100%; } }
+
+.text-parallax img { width: auto; }
+
+.text-parallax .parallax-layer-2 { height: 866px; }
+
+@media (min-width: 1280px) { .text-parallax .parallax-layer-2 { height: 63.5vw; } }
+
+.centered_text { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 9; }
+
+@media (min-width: 992px) { .centered_text { max-width: 628px; } }
+
+@media (min-width: 1280px) { .centered_text { max-width: 59.063vw; } }
+
+@media (max-width: 767px) { .centered_text { width: 104%; padding: 0 20px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .centered_text { width: 70%; } }
+
+.centered_text p { font-weight: normal; color: white; font-family: "KareliaWeb Regular", sans-serif; float: left; position: relative; }
+
+@media (min-width: 992px) { .centered_text p { font-size: 24px; line-height: 38px; letter-spacing: -0.02em; max-width: 475px; } }
+
+.centered_text p strong, .centered_text p b { display: inline-block; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (min-width: 992px) { .centered_text p strong, .centered_text p b { color: #FFFFFF; font-size: 82px; line-height: 80px; letter-spacing: -0.04em; min-width: 373px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .centered_text p strong, .centered_text p b { width: 27.33vw; } }
+
+@media (min-width: 1280px) { .centered_text p strong, .centered_text p b { width: 27.306vw; } }
+
+@media (max-width: 991px) { .centered_text p strong, .centered_text p b { font-size: 54px; line-height: 56px; width: 70.944vw; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .centered_text p strong, .centered_text p b { font-size: 82px; line-height: 80px; width: 55.063vw; } }
+
+@media (min-width: 1280px) { .centered_text p { font-size: 1.875vw; line-height: 2.500vw; max-width: 34.773vw; } }
+
+@media (max-width: 991px) { .centered_text p { font-size: 20px; line-height: 28px; letter-spacing: normal; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .centered_text p { font-size: 28px; line-height: 38px; } }

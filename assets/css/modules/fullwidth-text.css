@@ -1,0 +1,40 @@
+.fullwidth-text .full-width-wrapper { background: #0069ff; position: relative; }
+
+.fullwidth-text .full-width-wrapper svg { top: -2px; position: absolute; left: 0; }
+
+@media (min-width: 1200px) { .fullwidth-text .full-width-wrapper svg { width: 100%; height: auto; } }
+
+@media (max-width: 767px) { .fullwidth-text .full-width-wrapper svg { width: auto; height: calc(100% + 3px); } }
+
+@media (min-width: 768px) and (max-width: 991px) { .fullwidth-text .full-width-wrapper svg.d-md-block { display: none; }
+  .fullwidth-text .full-width-wrapper svg.d-lg-block { display: block; width: auto; height: 100%; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .fullwidth-text .full-width-wrapper svg { width: auto; height: 100%; } }
+
+.fullwidth-text .full-width-wrapper .content-wrapper { position: relative; color: white; display: grid; grid-template-columns: 1fr; margin-right: auto; margin-left: auto; }
+
+@media (min-width: 992px) { .fullwidth-text .full-width-wrapper .content-wrapper { width: 930px; padding: 11.713vw 10px 5.710vw; } }
+
+@media (max-width: 991px) { .fullwidth-text .full-width-wrapper .content-wrapper { padding: 51px 10px 71px; } }
+
+@media (max-width: 991px) { .fullwidth-text .full-width-wrapper .content-wrapper button { min-height: auto; height: auto; margin-top: 26px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .fullwidth-text .full-width-wrapper .content-wrapper { max-width: 550px; } }
+
+.fullwidth-text .full-width-wrapper .content-wrapper .small-section-heading { text-transform: uppercase; font-weight: 700; font-size: 14px; line-height: 16px; display: block; letter-spacing: 0.03em; font-family: "KareliaWeb Bold", sans-serif; position: relative; background: #0069ff; width: fit-content; }
+
+@media (max-width: 767px) { .fullwidth-text .full-width-wrapper .content-wrapper .small-section-heading { max-width: 340px; } }
+
+.fullwidth-text .full-width-wrapper .content-wrapper h2 { font-weight: normal; font-size: 82px; line-height: 80px; letter-spacing: -0.04em; max-width: 800px; font-family: "KareliaWeb Medium", sans-serif; position: relative; margin-top: 24px; }
+
+@media (max-width: 767px) { .fullwidth-text .full-width-wrapper .content-wrapper h2 { max-width: 320px; } }
+
+@media (max-width: 991px) { .fullwidth-text .full-width-wrapper .content-wrapper h2 { font-size: 36px; line-height: 38px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .fullwidth-text .full-width-wrapper .content-wrapper h2 { font-size: 62px; line-height: 64px; } }
+
+.fullwidth-text .full-width-wrapper .content-wrapper p { max-width: 491px; justify-self: end; margin-top: 36px; }
+
+@media (max-width: 991px) { .fullwidth-text .full-width-wrapper .content-wrapper p { width: 78%; margin-top: 32px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .fullwidth-text .full-width-wrapper .content-wrapper p { font-size: 24px; line-height: 36px; } }

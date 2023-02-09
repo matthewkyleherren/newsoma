@@ -1,0 +1,118 @@
+.footer-container { max-width: 100%; margin: 0 110px; }
+
+.footer-topcontent { background-color: #0069ff; }
+
+.footer-topcontent::before { top: -2px; }
+
+.footer-topcontent .container { z-index: 100; overflow: hidden; }
+
+@media (min-width: 992px) { .footer-topcontent .container { padding: 73px 0; } }
+
+@media (max-width: 767px) { .footer-topcontent .container { padding: 20px 20px 28px 20px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .footer-topcontent .container { padding: 40px 0; } }
+
+.footer-topcontent h3 { color: #FFFFFF; }
+
+@media (min-width: 992px) { .footer-topcontent h3 { max-width: 273px; font-size: 40px; line-height: 42px; letter-spacing: -0.03em; margin-bottom: 60px; } }
+
+@media (max-width: 991px) { .footer-topcontent h3 { font-size: 36px; line-height: 36px; letter-spacing: -0.04em; } }
+
+@media (min-width: 992px) { .footer-topcontent .footer-form { display: flex; justify-content: space-between; align-items: end; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .footer-topcontent .footer-form { align-items: flex-start; flex-direction: column; } }
+
+.footer-topcontent form { display: flex; }
+
+.footer-topcontent form input { background: #0069ff; }
+
+@media (min-width: 992px) { .footer-topcontent form { float: left; max-width: 60%; } }
+
+@media (max-width: 991px) { .footer-topcontent form { flex-direction: column; margin-top: 40px; } }
+
+.footer-topcontent form label { font-size: 16px; line-height: 26px; letter-spacing: -0.02em; color: #0069ff; padding: 12px 10px 12px 11px; background: #FFFFFF; }
+
+@media (max-width: 991px) { .footer-topcontent form input { margin-bottom: 12px; } }
+
+.footer-topcontent form button { padding: 12px 35px; display: inline-block; background: #FFFFFF; }
+
+.footer-topcontent .social-links { display: block; background: #0069ff; }
+
+@media (max-width: 991px) { .footer-topcontent .social-links { margin-top: 40px; } }
+
+@media (min-width: 1200px) { .footer-topcontent .social-links { float: right; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .footer-topcontent .social-links { margin-top: 40px; } }
+
+.footer-topcontent .social-links a.inline-icons { width: 18px; height: 18px; margin-left: 20px; }
+
+@media (max-width: 991px) { .footer-topcontent .social-links a.inline-icons:first-of-type { margin-left: 0; } }
+
+.footer-topcontent .social-links p { color: #FFFFFF; font-family: "KareliaWeb Bold", sans-serif; font-size: 14px; line-height: 16px; letter-spacing: 0.03em; text-transform: uppercase; }
+
+@media (min-width: 992px) { .footer-topcontent .social-links p { display: inline-block; } }
+
+@media (max-width: 991px) { .footer-topcontent .social-links p { display: block; margin-bottom: 20px; } }
+
+.footer-topcontent .social-links span a { height: 28px; width: 28px; text-align: center; line-height: 28px; margin: 0 5px; }
+
+@media (min-width: 992px) { .footer-logo { margin: 0; display: flex; flex-direction: column; align-items: start; justify-content: space-between; height: 100%; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .footer-logo a { padding-top: 10px !important; } }
+
+@media (max-width: 991px) { .footer-logo img { display: none; } }
+
+@media (min-width: 992px) { .footer-logo img { display: block; max-width: 100%; height: 32px; width: auto; } }
+
+.footer-contact-details p { margin: 10px 0 0 0; font-family: "KareliaWeb Regular", sans-serif; color: #1C1C1C; }
+
+.footer-contact-details p a { font-size: inherit; line-height: inherit; }
+
+@media (min-width: 992px) { .footer-contact-details p { font-size: 16px; line-height: 26px; letter-spacing: -0.02em; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .footer-contact-details p { font-size: 20px; line-height: 26px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .footer-contact-details p { margin: 0 0 10px; }
+  .footer-contact-details p:last-child { margin-bottom: 0; } }
+
+@media (min-width: 992px) { .footer-linkboxes { display: grid; overflow: hidden; grid-template-columns: 1fr repeat(4, auto); grid-column-gap: 80px; margin-top: 40px; overflow: hidden; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .footer-linkboxes { grid-column-gap: 20px; } }
+
+@media (max-width: 767px) { .footer-linkboxes { grid-template-columns: auto; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .footer-linkboxes { display: grid; grid-template-columns: 1fr 1fr; grid-row-gap: 40px; } }
+
+@media (max-width: 991px) { .footer-linkboxes { margin-top: 30px; } }
+
+@media (max-width: 767px) { .footer-linkboxes ul { margin-top: 40px; } }
+
+.footer-linkboxes li, .footer-linkboxes a { display: block; list-style: none; text-decoration: none; font-family: "KareliaWeb Regular", sans-serif; line-height: 26px; font-size: 16px; letter-spacing: -0.02em; color: #1C1C1C; }
+
+@media (max-width: 767px) { .footer-linkboxes li, .footer-linkboxes a { font-size: 14px; line-height: 20px; margin: 8px 0; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .footer-linkboxes li, .footer-linkboxes a { font-size: 15px; } }
+
+.footer-linkboxes a { padding: 3px 0; }
+
+@media (min-width: 768px) and (max-width: 991px) { .footer-linkboxes a { padding: 0; margin-bottom: 10px; } }
+
+.footer-linkname a { font-size: 18px; line-height: 28px; font-family: "KareliaWeb Regular", sans-serif; color: #0069ff; }
+
+@media (min-width: 992px) { .footer-linkname a { letter-spacing: -0.02em; line-height: 38px; font-size: 24px; padding: 0; margin-bottom: 16px; } }
+
+.footer-bottom--text { justify-content: space-between; align-items: center; display: flex; margin: 65px 0px; }
+
+@media (max-width: 991px) { .footer-bottom--text { align-items: start; } }
+
+@media (max-width: 767px) { .footer-bottom--text { flex-direction: column-reverse; margin: 40px 0px; justify-content: space-around; } }
+
+.copyright_text { font-family: "KareliaWeb Regular", sans-serif; font-size: 14px; line-height: 26px; letter-spacing: -0.02em; color: #1C1C1C; }
+
+@media (max-width: 767px) { .copyright_text { font-size: 12px; line-height: 18px; letter-spacing: -0.02em; } }
+
+.policy_terms { color: #0069ff; font-family: "KareliaWeb Medium", sans-serif; text-decoration: none; font-size: 14px; line-height: 16px; text-transform: uppercase; letter-spacing: 0.03em; }
+
+@media (max-width: 767px) { .policy_terms { font-size: 12px; line-height: 16px; font-family: "KareliaWeb Bold", sans-serif; margin: 0px 23px 20px 0px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .policy_terms { line-height: 26px; } }

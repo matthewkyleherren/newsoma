@@ -1,0 +1,29 @@
+@media (max-width: 991px) { .contact-form { margin: 44px 0 10px 0; } }
+
+@media (min-width: 992px) { .contact-form { margin: 80px 0px 10px 0; } }
+
+@media (min-width: 992px) { .contact-form .container { max-width: 656px; } }
+
+.contact-form h2 { text-transform: uppercase; font-family: "KareliaWeb Bold", sans-serif; }
+
+@media (max-width: 991px) { .contact-form h2 { font-size: 12px; line-height: 16px; letter-spacing: 0.04em; margin-bottom: 10px; } }
+
+@media (min-width: 992px) { .contact-form h2 { line-height: 14px; color: #1C1C1C; font-size: 12px; letter-spacing: 0.03em; margin-bottom: 16px; } }
+
+.contact-form .contact-from-grid { display: grid; grid-template-rows: auto; grid-row-gap: 10px; padding-bottom: 80px; }
+
+@media (min-width: 992px) { .contact-form .contact-from-grid { grid-template-columns: 1fr 1fr; grid-row-gap: 16px; } }
+
+.contact-form .contact-from-grid input, .contact-form .contact-from-grid textarea, .contact-form .contact-from-grid select { border: 1px solid #0069ff; color: #1C1C1C; }
+
+.contact-form .contact-from-grid select { padding: 11px 53px 11px 42px; }
+
+.contact-form .contact-from-grid input::placeholder { color: #1C1C1C; }
+
+@media (max-width: 991px) { .contact-form .contact-from-grid textarea { grid-row-start: 7; grid-row-end: 30; } }
+
+@media (min-width: 992px) { .contact-form .contact-from-grid textarea { grid-column-start: 1; grid-column-end: 3; grid-row-start: 4; grid-row-end: 15; } }
+
+.contact-form .contact-from-grid textarea::placeholder { color: #ABABAB; }
+
+.contact-form .contact-from-grid button { background-color: #0069ff; border: none; color: #FFFFFF; width: 128px; height: 48px; margin-top: 10px; font-family: "KareliaWeb Regular", sans-serif; font-size: 16px; line-height: 26px; letter-spacing: -0.02em; }

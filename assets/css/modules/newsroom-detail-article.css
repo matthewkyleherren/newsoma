@@ -1,0 +1,39 @@
+@media (max-width: 991px) { .newsroom-article { background: #FFFFFF; margin: 0; } }
+
+@media (max-width: 991px) { .newsroom-article .newroom-wrapper { padding: 0; } }
+
+@media (max-width: 991px) { .newsroom-article .newroom-wrapper p { line-height: 26px; margin: 20px 0; } }
+
+@media (max-width: 991px) and (min-width: 992px) { .newsroom-article .newroom-wrapper p { font-size: 24px; line-height: 38px; letter-spacing: -0.02em; } }
+
+@media (min-width: 992px) { .newsroom-article .newroom-wrapper .page-content { background: #FFFFFF; padding: 20px 96px 44px 96px; } }
+
+@media (max-width: 991px) { .newsroom-article .newroom-wrapper .page-content { padding: 0 20px; } }
+
+.newsroom-article .newroom-wrapper .page-content h3 { color: #0069ff; font-size: 16px; line-height: 26px; letter-spacing: -0.02em; }
+
+@media (min-width: 992px) { .newsroom-article .newroom-wrapper .page-content h3 { margin: 12px 0px 20px 0px; } }
+
+@media (min-width: 992px) { .newsroom-article .newroom-wrapper .page-content p { margin-bottom: 36px; } }
+
+.newsroom-article .newroom-wrapper .page-content p:first-of-type { color: #ABABAB; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (min-width: 992px) { .newsroom-article .newroom-wrapper .page-content p:first-of-type { font-size: 40px; line-height: 44px; letter-spacing: -0.02em; } }
+
+@media (max-width: 991px) { .newsroom-article .newroom-wrapper .member-quotes { padding: 0 20px; } }
+
+@media (min-width: 992px) { .newsroom-article .newroom-wrapper .member-quotes p { padding: 80px 96px; background-color: #FFFFFF; margin: 0 0 80px 0; } }
+
+@media (min-width: 992px) { .newsroom-article .newroom-wrapper .newsroom-about { background: #FFFFFF; padding: 64px 96px; max-width: 1146px; margin: 0 auto; } }
+
+@media (max-width: 991px) { .newsroom-article .newroom-wrapper .newsroom-about { margin: 60px 0 40px 0; padding: 0px 20px; } }
+
+.newsroom-article .newroom-wrapper .newsroom-about h4 { color: #0069ff; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (max-width: 991px) { .newsroom-article .newroom-wrapper .newsroom-about h4 { font-size: 36px; line-height: 38px; letter-spacing: -0.04em; } }
+
+@media (min-width: 992px) { .newsroom-article .newroom-wrapper .newsroom-about h4 { font-size: 40px; line-height: 44px; letter-spacing: -0.02em; margin: 16px 0; } }
+
+@media (min-width: 992px) { .newsroom-article .newroom-wrapper .newsroom-about p { margin-bottom: 16px; } }
+
+.newsroom-article .newroom-wrapper .newsroom-about p:last-child { margin-bottom: unset; }

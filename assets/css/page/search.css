@@ -1,0 +1,47 @@
+.insight-three-card-single { background-color: #0069ff; display: flex; flex-direction: column; align-content: space-between; justify-content: space-between; }
+
+.insight-three-card-single:nth-child(even) { background-color: rgba(220, 220, 220, 0.3); }
+
+.insight-three-card-single:nth-child(even) .insight-three-card-text { color: #0069ff; }
+
+.insight-three-card-img { position: relative; width: 100%; height: 0px; padding-bottom: 59.12%; overflow: hidden; }
+
+.insight-three-card-img img { position: absolute; width: 100%; left: 50%; top: 50%; transform: translate(-50%, -50%); height: auto; }
+
+.insight-three-card-img.red-dot-bg::before { z-index: 99; }
+
+.insight-three-card-text { padding: 16px; color: #FFFFFF; height: auto; position: relative; }
+
+@media (min-width: 992px) { .insight-three-card-text { height: 246px; padding: 16px 18px 16px 16px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .insight-three-card-text { height: 257px; } }
+
+.insight-three-card-text h4 { font-family: "KareliaWeb Regular", sans-serif; font-size: 18px; line-height: 28px; margin-top: 12px; min-height: 120px; }
+
+@media (min-width: 1200px) { .insight-three-card-text h4 { font-size: 24px; line-height: 30px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .insight-three-card-text h4 { font-size: 24px; line-height: 36px; } }
+
+@media (min-width: 992px) { .insight-three-card-text h4 { margin-top: 10px; letter-spacing: -0.02em; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .insight-three-card-text h4 { line-height: 24px; } }
+
+.insight-three-card-text p { font-family: "KareliaWeb Bold", sans-serif; font-size: 12px; line-height: 16px; letter-spacing: 0.04em; text-transform: uppercase; }
+
+@media (min-width: 1200px) { .insight-three-card-text p { font-size: 14px; letter-spacing: 0.03em; } }
+
+.insight-three-card-text button.red-btn { margin: 0; position: relative; height: 40px; width: 40px; min-height: auto; margin-top: 18px; border-radius: 50%; }
+
+@media (min-width: 992px) { .insight-three-card-text button.red-btn { position: absolute; margin-top: 24px; bottom: 16px; left: 16px; } }
+
+@media (max-width: 991px) { .search .service-card { margin-bottom: 20px; } }
+
+@media (max-width: 991px) { .search .insight-three-card-single { margin-bottom: 20px; } }
+
+@media (max-width: 991px) { .search .success-stories-card-single { margin-bottom: 20px; } }
+
+.search button.inline-icons.cross-icon { position: absolute; right: 0; }
+
+@media (min-width: 992px) { .search button.inline-icons.cross-icon { padding: 0px 40px; } }
+
+@media (max-width: 991px) { .search button.inline-icons.cross-icon { width: 24px; height: 24px; padding: 0 20px; } }

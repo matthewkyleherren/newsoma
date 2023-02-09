@@ -1,0 +1,33 @@
+@media (max-width: 991px) { .leadership-detail #grid-large-triangle { width: auto; height: auto; } }
+
+.leadership-detail .leadership-detail-btn { padding-top: 20px; }
+
+@media (min-width: 992px) { .leadership-detail .leadership-detail-btn { padding-top: 60px; } }
+
+.leadership-detail .leadership-detail-btn button.red-back-btn, .leadership-detail .leadership-detail-btn button.red-share-btn { height: 40px; width: 40px; display: inline; padding: 0px 0px; }
+
+.leadership-detail .leadership-detail-btn button.red-back-btn { border-radius: 100%; background: #0069ff; background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAxMSAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjIxMDkgMTguNDg0NEwxLjcyNTY2IDkuOTk5MDlMMTAuMjEwOSAxLjUxMzgxIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIvPgo8L3N2Zz4K"); background-size: contain; background-repeat: no-repeat; background-position: center; background-size: 30%; }
+
+.leadership-detail .leadership-detail-btn button.red-share-btn { margin-left: 35px; background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDEiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MSA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMwLjQ2MDkgOC4zMzM5OEwxMC40NjA5IDIwLjAwMDdMMzAuNDYwOSAzMS42NjczIiBzdHJva2U9IiNFQTI2MkEiLz4KPGNpcmNsZSBjeD0iMzAuNDYwOSIgY3k9IjguMzMzOTgiIHI9IjUiIGZpbGw9IndoaXRlIiBzdHJva2U9IiNFQTI2MkEiLz4KPGNpcmNsZSBjeD0iMTAuNDYwOSIgY3k9IjIwIiByPSI1IiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSIjRUEyNjJBIi8+CjxjaXJjbGUgY3g9IjMwLjQ2MDkiIGN5PSIzMS42NjYiIHI9IjUiIGZpbGw9IndoaXRlIiBzdHJva2U9IiNFQTI2MkEiLz4KPC9zdmc+Cg=="); background-size: cover; }
+
+.leadership-detail .leadership-detail-grid { grid-template-columns: auto; margin: 0px 0px 60px 0px; padding: 12px 0 0 0; }
+
+@media (min-width: 992px) { .leadership-detail .leadership-detail-grid { grid-template-columns: 1.2fr 1fr; margin: 0px 0px 161px 0px; padding: 60px 0 0 0; grid-column-gap: 50px; } }
+
+.leadership-detail .leadership-detail-grid .leadership-detail-img { position: relative; padding-bottom: 127%; height: 0px; }
+
+.leadership-detail .leadership-detail-grid .leadership-detail-img img { position: absolute; }
+
+@media (max-width: 991px) { .leadership-detail .leadership-detail-grid .leadership-detail-txt { padding-top: 30px; } }
+
+@media (min-width: 992px) { .leadership-detail .leadership-detail-grid .leadership-detail-txt { width: 457px; } }
+
+.leadership-detail .leadership-detail-grid .leadership-detail-txt h1 { color: #0069ff; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (min-width: 992px) { .leadership-detail .leadership-detail-grid .leadership-detail-txt h1 { font-size: 40px; line-height: 44px; letter-spacing: -0.02em; } }
+
+@media (max-width: 991px) { .leadership-detail .leadership-detail-grid .leadership-detail-txt h1 { font-size: 24px; line-height: 30px; letter-spacing: -0.02em; } }
+
+.leadership-detail .leadership-detail-grid .leadership-detail-txt p { font-size: 18px; line-height: 28px; color: #1C1C1C; font-family: "KareliaWeb Regular", sans-serif; margin: 10px 0px 20px 0px; }
+
+@media (min-width: 992px) { .leadership-detail .leadership-detail-grid .leadership-detail-txt p { margin: 16px 0px 20px 0px; } }

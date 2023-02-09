@@ -1,0 +1,91 @@
+@media (max-width: 991px) { .diversity-inclusion { padding: 26px 0 0 0; } }
+
+@media (min-width: 992px) { .diversity-inclusion { padding: 52px 0 80px 0; } }
+
+@media (min-width: 992px) { .diversity-inclusion section { z-index: 99; margin: 0; position: relative; } }
+
+@media (max-width: 991px) { .diversity-inclusion::before { z-index: -1; } }
+
+@media (max-width: 991px) { .diversity-inclusion .service-detail-hero { padding: 24px 0px 40px  0px; margin: 0; background: #FFFFFF; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .diversity-inclusion .service-detail-hero { padding: 0px; margin: 0px; background: unset; } }
+
+@media (min-width: 992px) { .diversity-inclusion .service-detail-hero { margin: 0; } }
+
+.diversity-inclusion .service-detail-hero .service-wrapper { background: #FFFFFF; }
+
+@media (min-width: 992px) { .diversity-inclusion .service-detail-hero .service-wrapper { padding: 40px 96px 60px 96px; max-width: 1146px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .diversity-inclusion .service-detail-hero .service-wrapper { padding: 50px 20px; background: #FFFFFF; max-width: 767px; margin: 0 auto; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .diversity-inclusion .service-detail-hero .service-wrapper { padding: 40px 20px; } }
+
+@media (min-width: 992px) { .diversity-inclusion .service-detail-hero .service-wrapper p { line-height: normal; } }
+
+@media (min-width: 992px) { .diversity-inclusion .service-detail-hero .service-wrapper h1 { margin: 24px 0px 40px 0px; max-width: 767px; } }
+
+@media (max-width: 991px) { .diversity-inclusion .service-detail-hero .service-wrapper h1 { margin: 20px 0px; } }
+
+.diversity-inclusion .service-detail-hero h1 { background: -webkit-linear-gradient(0deg, #0069ff, #00D35A, #000577, #FF9900, #42AEEA); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+@media (min-width: 992px) { .diversity-inclusion .service-detail-hero .hero-content { max-width: 950px; margin-top: 0px; } }
+
+.diversity-inclusion .diversity-article { margin: 0; }
+
+@media (max-width: 991px) { .diversity-inclusion .diversity-article .diversity-wrapper { padding: 0; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .diversity-inclusion .diversity-article .diversity-wrapper { max-width: unset; } }
+
+.diversity-inclusion .diversity-article .diversity-wrapper .diversity-page-content { background: #FFFFFF; }
+
+@media (min-width: 992px) { .diversity-inclusion .diversity-article .diversity-wrapper .diversity-page-content { background: #FFFFFF; padding: 80px 96px 40px 96px; max-width: 1146px; margin: 0px auto; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .diversity-inclusion .diversity-article .diversity-wrapper .diversity-page-content { max-width: 850px; margin: 0 auto; padding: 80px 40px 40px 40px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .diversity-inclusion .diversity-article .diversity-wrapper .diversity-page-content { max-width: 550px; margin: 0 auto; } }
+
+.diversity-inclusion .diversity-article .diversity-wrapper .content-with-heading { background: #FFFFFF; }
+
+@media (min-width: 992px) and (max-width: 1199px) { .diversity-inclusion .diversity-article .diversity-wrapper .content-with-heading { max-width: 850px; margin: 0 auto; padding: 40px 40px 40px 40px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .diversity-inclusion .diversity-article .diversity-wrapper .content-with-heading { max-width: 550px; margin: 0 auto; } }
+
+@media (max-width: 991px) { .diversity-inclusion .diversity-article .diversity-wrapper .content-with-heading.policy-list { padding: 40px 20px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .diversity-inclusion .diversity-article .diversity-wrapper .content-with-heading.policy-list { max-width: 850px; margin: 0 auto; padding: 10px 40px 40px 40px; } }
+
+@media (min-width: 992px) { .diversity-inclusion .diversity-article .diversity-wrapper .content-with-heading.policy-list h2 { min-height: 180px; } }
+
+@media (max-width: 991px) { .diversity-inclusion .diversity-article .diversity-wrapper .content-with-heading.policy-list h2 { min-height: 120px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .diversity-inclusion .diversity-article .diversity-wrapper .content-with-heading.policy-list h2 { min-height: 85px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .diversity-inclusion .diversity-article .diversity-wrapper .content-with-heading.policy-list h2 { font-size: 70px; line-height: 64px; min-height: 145px; } }
+
+.diversity-inclusion .diversity-article .diversity-wrapper .content-with-heading h2 { background: -webkit-linear-gradient(0deg, #0069ff, #00D35A, #000577, #FF9900, #42AEEA); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+@media (min-width: 992px) { .diversity-inclusion .diversity-article .diversity-wrapper .content-with-heading h2 { min-height: 96px; } }
+
+@media (max-width: 991px) { .diversity-inclusion .diversity-article .diversity-wrapper .content-with-heading h2 { min-height: 40px; } }
+
+.diversity-inclusion .diversity-pull-out-no { background: #FFFFFF; }
+
+@media (min-width: 992px) { .diversity-inclusion .diversity-pull-out-no { background: #FFFFFF; padding: 80px 96px; max-width: 1146px; margin: 0 auto 80px auto; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .diversity-inclusion .diversity-pull-out-no { max-width: 850px; margin: 0 auto; padding: 80px 40px 40px 40px; } }
+
+@media (max-width: 991px) { .diversity-inclusion .diversity-pull-out-no .grid-container { padding: 0; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .diversity-inclusion .diversity-pull-out-no .grid-container { grid-template-columns: repeat(3, 240px); } }
+
+@media (min-width: 992px) { .diversity-inclusion .diversity-inclusion-image { margin: 0; } }
+
+.diversity-inclusion .diversity-full-width-image-animate { margin: 0; }
+
+.diversity-inclusion .diversity-full-width-image-animate .diversity-grid::before { top: -2px; }
+
+@media (min-width: 992px) { .diversity-inclusion .diversity-full-width-image-animate .diversity-grid::before { top: -2px; } }
+
+@media (max-width: 991px) { .diversity-inclusion .diversity-inclusion-video { margin: 0; background: #FFFFFF; } }
+
+@media (max-width: 991px) { .diversity-inclusion .single-img-fullwidth-parallax { margin: 0; } }

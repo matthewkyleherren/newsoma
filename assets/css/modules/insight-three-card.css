@@ -1,0 +1,9 @@
+.insight-three-card h3 { font-size: 14px; line-height: 16px; letter-spacing: 0.03em; text-transform: uppercase; color: #0069ff; font-family: "KareliaWeb Bold", sans-serif; }
+
+.insight-three-card .insight-three-grid { position: relative; }
+
+@media (max-width: 991px) { .insight-three-card .insight-three-grid { grid-row-gap: 20px; grid-template-columns: auto; margin: 20px 0; } }
+
+@media (min-width: 992px) { .insight-three-card .insight-three-grid { grid-template-columns: 1fr 1fr 1fr; margin-top: 24px; } }
+
+.insight-three-card .insight-three-grid .insight-three-card-single:nth-child(odd) .red-dot-bg::before { filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(253%) contrast(103%); }

@@ -1,0 +1,53 @@
+.contact-header { background-color: #0069ff; height: 497px; position: relative; }
+
+@media (min-width: 992px) { .contact-header { height: 340px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .contact-header { height: 368px; } }
+
+.contact-header::before { right: 0; left: unset; }
+
+@media (max-width: 991px) { .contact-header::before { top: 355px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .contact-header::before { content: unset; } }
+
+.contact-header h1 { letter-spacing: -0.04em; font-family: "KareliaWeb Medium", sans-serif; color: #FFFFFF; }
+
+@media (max-width: 991px) { .contact-header h1 { font-size: 54px; line-height: 56px; padding-top: 20px; } }
+
+@media (min-width: 992px) { .contact-header h1 { font-size: 82px; line-height: 80px; padding: 66px 0px 0px 110px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-header h1 { padding: 66px 0px 0px 0px; } }
+
+@media (max-width: 991px) { .contact-header .contact-header-txt { width: 261px; margin: 20px 0px 0px 58px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .contact-header .contact-header-txt { margin: 20px 0px 0px 0px; } }
+
+@media (min-width: 992px) { .contact-header .contact-header-txt { width: 557px; margin: 12px 0px 0px 208px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-header .contact-header-txt { margin: 12px 0px 0px 0px; } }
+
+.contact-header .contact-header-txt p { font-size: 18px; line-height: 28px; font-family: "KareliaWeb Regular", sans-serif; color: #FFFFFF; }
+
+@media (min-width: 992px) { .contact-header .contact-header-txt p { font-size: 24px; line-height: 38px; letter-spacing: -0.02em; } }
+
+@media (min-width: 1200px) { .contact-header .social-links { background: #0069ff; } }
+
+@media (max-width: 991px) { .contact-header .social-links { margin: 40px 0px 0px 58px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .contact-header .social-links { margin: 20px 0px 0px 0px; } }
+
+@media (min-width: 1200px) { .contact-header .social-links { float: right; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-header .social-links { margin: 25px 0px 0px 0px; } }
+
+.contact-header .social-links a.inline-icons { width: 18px; height: 18px; margin-left: 30px; }
+
+@media (max-width: 991px) { .contact-header .social-links a.inline-icons:first-of-type { margin-left: 0; } }
+
+.contact-header .social-links p { color: #FFFFFF; font-family: "KareliaWeb Bold", sans-serif; font-size: 14px; line-height: 16px; letter-spacing: 0.03em; text-transform: uppercase; }
+
+@media (min-width: 992px) { .contact-header .social-links p { display: inline-block; } }
+
+@media (max-width: 991px) { .contact-header .social-links p { display: block; margin-bottom: 20px; } }
+
+.contact-header .social-links span a { height: 28px; width: 28px; text-align: center; line-height: 28px; margin: 0 5px; }

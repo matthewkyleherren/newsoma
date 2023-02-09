@@ -1,0 +1,9 @@
+.insight-landing-header { margin: 41px 0  0 0; overflow: hidden; }
+
+@media (min-width: 992px) { .insight-landing-header { display: flex; margin: 0 0  41px 0; padding-top: 40px; justify-content: space-between; } }
+
+.insight-landing-header h1 { font-family: "KareliaWeb Medium", sans-serif; font-size: 40px; line-height: 44px; letter-spacing: -0.02em; float: left; }
+
+.insight-landing-header .insight-landing-filter-select { border: 1px solid #0069ff; color: #1C1C1C; padding: 11px 53px 11px 42px; margin: 26px 0 11px; width: 100%; margin: 20px 0 40px; }
+
+@media (min-width: 992px) { .insight-landing-header .insight-landing-filter-select { width: 362px; margin: 0; } }

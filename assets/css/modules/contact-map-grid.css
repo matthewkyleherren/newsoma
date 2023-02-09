@@ -1,0 +1,41 @@
+.contact-map-grid { padding-bottom: 40px; }
+
+@media (min-width: 992px) { .contact-map-grid { padding: 56px 0px 182px 0px; } }
+
+@media (max-width: 767px) { .contact-map-grid .container { padding: 0px; } }
+
+@media (min-width: 992px) { .contact-map-grid.red-dot-bg:before { z-index: -1; } }
+
+@media (max-width: 991px) { .contact-map-grid.red-dot-bg:before { content: none; } }
+
+.contact-map-grid .contact-map-pg { background-color: #FFFFFF; padding-bottom: 50px; }
+
+.contact-map-grid .contact-map-pg h1 { color: #0069ff; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (max-width: 767px) { .contact-map-grid .contact-map-pg h1 { padding: 0 20px; } }
+
+@media (max-width: 991px) { .contact-map-grid .contact-map-pg h1 { font-size: 36px; line-height: 38px; } }
+
+@media (min-width: 992px) { .contact-map-grid .contact-map-pg h1 { font-size: 82px; line-height: 80px; padding: 60px 0px 0px 75px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-map-grid .contact-map-pg h1 { padding: 20px 0px 0px 0px; } }
+
+@media (max-width: 767px) { .contact-map-grid .contact-map-pg ul { padding: 0 20px; } }
+
+@media (min-width: 992px) { .contact-map-grid .contact-map-pg ul { display: flex; justify-content: center; margin: 80px 0px 20px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-map-grid .contact-map-pg ul { margin: 40px 0px 20px; } }
+
+@media (max-width: 991px) { .contact-map-grid .contact-map-pg ul { overflow-x: scroll; display: grid; margin: 20px 0px; grid-template-columns: auto auto auto 200px 200px; }
+  .contact-map-grid .contact-map-pg ul::-webkit-scrollbar { display: none; } }
+
+.contact-map-grid .contact-map-pg ul li { color: #ABABAB; text-decoration-line: underline; font-family: "KareliaWeb Medium", sans-serif; cursor: pointer; }
+
+@media (max-width: 991px) { .contact-map-grid .contact-map-pg ul li { padding: 20px 0px 20px 0px; font-size: 24px; line-height: 30px; padding: 0 20px 0 0; }
+  .contact-map-grid .contact-map-pg ul li:last-child { padding: 0; } }
+
+@media (min-width: 992px) { .contact-map-grid .contact-map-pg ul li { font-size: 40px; line-height: 44px; letter-spacing: -0.02em; padding: 0 28px 0 0; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .contact-map-grid .contact-map-pg ul li { font-size: 34px; line-height: 38px; } }
+
+.contact-map-grid .contact-map-pg ul li .active { color: #1C1C1C; border-bottom: solid 3px #1C1C1C; }

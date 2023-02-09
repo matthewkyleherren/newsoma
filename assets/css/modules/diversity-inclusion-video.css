@@ -1,0 +1,5 @@
+.diversity-inclusion-video { margin: 0px; }
+
+.diversity-inclusion-video .video-container { margin: auto; }
+
+.diversity-inclusion-video .video-container video { position: relative; width: 100%; object-fit: cover; }

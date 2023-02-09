@@ -1,0 +1,60 @@
+.mdd-circle { margin: 0; }
+
+.mdd-circle h3 { color: #0069ff; letter-spacing: -0.04em; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (max-width: 991px) { .mdd-circle h3 { font-size: 36px; line-height: 38px; margin-bottom: 48px; } }
+
+@media (min-width: 992px) { .mdd-circle h3 { font-size: 82px; line-height: 80px; margin: 60px 0px; padding: 20px 96px 60px 96px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-circle h3 { font-size: 62px; line-height: 60px; padding: 0; } }
+
+.mdd-circle .circle-grid { display: grid; }
+
+@media (max-width: 991px) { .mdd-circle .circle-grid { z-index: 999; position: relative; grid-template-columns: auto auto; grid-column-gap: 20px; grid-row-gap: 20px; } }
+
+@media (min-width: 992px) { .mdd-circle .circle-grid { grid-template-columns: repeat(5, auto); grid-column-gap: 30px; padding: 0px 28px 0px 96px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-circle .circle-grid { grid-column-gap: 18px; padding: 0; } }
+
+.mdd-circle .circle-grid .circle-wrapper { display: grid; justify-content: center; }
+
+@media (min-width: 992px) { .mdd-circle .circle-grid .circle-wrapper { grid-template-rows: 60px auto 60px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-circle .circle-grid .circle-wrapper { justify-content: center; } }
+
+@media (min-width: 992px) { .mdd-circle .circle-grid .circle-wrapper:nth-child(odd) .circle-heading { margin-bottom: 16px; } }
+
+@media (min-width: 992px) { .mdd-circle .circle-grid .circle-wrapper:nth-child(even) .circle-heading { align-self: end; grid-row: 3; padding-bottom: 0px; margin-bottom: -10px; } }
+
+@media (min-width: 992px) { .mdd-circle .circle-grid .circle-wrapper:nth-child(even) .circle-content::before { bottom: -30px; top: unset; }
+  .mdd-circle .circle-grid .circle-wrapper:nth-child(even) .circle-content::after { bottom: -30px; top: unset; } }
+
+.mdd-circle .circle-grid .circle-wrapper .circle-heading { grid-row: 1; justify-self: center; text-align: center; align-self: end; }
+
+@media (min-width: 992px) { .mdd-circle .circle-grid .circle-wrapper .circle-heading p { line-height: 30px; } }
+
+@media (max-width: 991px) { .mdd-circle .circle-grid .circle-wrapper .circle-heading p { margin-bottom: 10px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-circle .circle-grid .circle-wrapper .circle-heading p { font-size: 20px; line-height: 22px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-circle .circle-grid .circle-wrapper .circle-heading { font-size: 16px; line-height: unset; padding-bottom: 10px; } }
+
+.mdd-circle .circle-grid .circle-wrapper .circle-content { position: relative; display: flex; justify-content: center; align-items: center; border-radius: 100%; background: #0069ff; grid-row: 2; margin-top: 30px; }
+
+.mdd-circle .circle-grid .circle-wrapper .circle-content::before { content: ""; top: -23px; display: block; width: 1px; height: 61px; background: #0069ff; position: absolute; }
+
+.mdd-circle .circle-grid .circle-wrapper .circle-content::after { top: -30px; content: ""; background: #0069ff; width: 10px; height: 10px; position: absolute; transform: rotate(45deg); }
+
+@media (max-width: 991px) { .mdd-circle .circle-grid .circle-wrapper .circle-content { width: 154px; height: 154px; } }
+
+@media (min-width: 992px) { .mdd-circle .circle-grid .circle-wrapper .circle-content { width: 180px; height: 180px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-circle .circle-grid .circle-wrapper .circle-content { width: 150px; height: 150px; } }
+
+.mdd-circle .circle-grid .circle-wrapper .circle-content .content-text { color: #FFFFFF; font-family: "KareliaWeb Bold", sans-serif; text-transform: uppercase; text-align: center; z-index: 1; }
+
+@media (max-width: 991px) { .mdd-circle .circle-grid .circle-wrapper .circle-content .content-text { font-size: 12px; line-height: 16px; max-width: 68%; letter-spacing: 0.04em; } }
+
+@media (min-width: 992px) { .mdd-circle .circle-grid .circle-wrapper .circle-content .content-text { font-size: 14px; line-height: 16px; letter-spacing: 0.03em; max-width: 152px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-circle .circle-grid .circle-wrapper .circle-content .content-text { font-size: 12px; line-height: 14px; max-width: 135px; } }

@@ -1,0 +1,50 @@
+.home-last-section .container-left-fluid { padding: 0; }
+
+@media (min-width: 768px) and (max-width: 991px) { .home-last-section .container-left-fluid { max-width: 550px; margin: 0 auto; } }
+
+@media (max-width: 767px) { .home-last-section .swiper-wrapper { padding: 0 20px; } }
+
+@media (max-width: 991px) { .home-last-section .swiper-wrapper { display: -webkit-box; overflow-x: scroll; overflow-y: hidden; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .home-last-section .swiper-wrapper { padding: 0 20px 0 0; } }
+
+.home-last-section .last-section-grid { background: #FFFFFF; }
+
+@media (min-width: 992px) { .home-last-section .last-section-grid { grid-column-gap: 90px; grid-template-columns: 1.56fr 2fr; align-items: center; } }
+
+@media (max-width: 991px) { .home-last-section .last-section-grid { margin-right: 20px; max-width: 300px; }
+  .home-last-section .last-section-grid:last-child { margin-right: 0; } }
+
+.home-last-section .last-section-grid .left-col-wrapper .image-wrapper { padding-bottom: 133.33%; }
+
+@media (max-width: 991px) { .home-last-section .last-section-grid .left-col-wrapper .image-wrapper { padding-bottom: 124.65%; } }
+
+.home-last-section .last-section-grid .left-col-wrapper .image-wrapper .grid-image { z-index: 1; width: 100%; height: auto; }
+
+@media (max-width: 991px) { .home-last-section .last-section-grid .right-col-wrapper { padding: 0 20px 0 0; margin-top: 40px; } }
+
+@media (min-width: 992px) { .home-last-section .last-section-grid .right-col-wrapper { max-width: 660px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .home-last-section .last-section-grid .right-col-wrapper { margin-top: 0; } }
+
+.home-last-section .last-section-grid .right-col-wrapper .small-section-heading { font-size: 12px; line-height: 14px; font-weight: 700; font-family: "KareliaWeb Regular", sans-serif; letter-spacing: 0.03em; text-transform: uppercase; color: #0069ff; }
+
+.home-last-section .last-section-grid .right-col-wrapper .section-heading { font-family: "KareliaWeb Medium", sans-serif; font-size: 36px; line-height: 38px; color: #0069ff; letter-spacing: -0.04em; }
+
+@media (max-width: 991px) { .home-last-section .last-section-grid .right-col-wrapper .section-heading { margin-top: 20px; } }
+
+@media (min-width: 992px) { .home-last-section .last-section-grid .right-col-wrapper .section-heading { font-weight: 400; letter-spacing: -0.04em; margin-top: 24px; } }
+
+@media (min-width: 1200px) { .home-last-section .last-section-grid .right-col-wrapper .section-heading { font-size: 82px; line-height: 80px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .home-last-section .last-section-grid .right-col-wrapper .section-heading { font-size: 72px; line-height: 70px; } }
+
+.home-last-section .last-section-grid .right-col-wrapper p { margin: 24px 0 0 0; font-size: 16px; line-height: 26px; font-weight: 400; letter-spacing: -0.02em; max-width: 400px; float: right; }
+
+@media (min-width: 992px) { .home-last-section .last-section-grid .right-col-wrapper p { margin-top: 42px; } }
+
+.home-last-section .last-section-grid .right-col-wrapper p span { margin-top: 24px; }
+
+.home-last-section .last-section-grid .right-col-wrapper p span.name { font-family: "KareliaWeb Medium", sans-serif; color: #1C1C1C; display: block; }
+
+.home-last-section .last-section-grid .right-col-wrapper button { min-height: auto; padding: 0; height: 40px; }

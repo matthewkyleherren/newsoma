@@ -1,0 +1,19 @@
+.mdd-blockquote .blockquote { background-color: #0069ff; font-family: "KareliaWeb Medium", sans-serif; color: #FFFFFF; position: relative; z-index: 1; }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-blockquote .blockquote #grid-7 { width: auto; height: 100%; } }
+
+@media (max-width: 767px) { .mdd-blockquote .blockquote #grid-7 { top: auto; bottom: 0; } }
+
+@media (max-width: 991px) { .mdd-blockquote .blockquote { height: 416px; padding: 24px 20px; } }
+
+@media (min-width: 992px) { .mdd-blockquote .blockquote { padding: 80px 96px; grid-column: 1/span 3; } }
+
+.mdd-blockquote .blockquote p { z-index: 99; position: relative; }
+
+@media (max-width: 991px) { .mdd-blockquote .blockquote p { font-size: 24px; line-height: 30px; } }
+
+@media (min-width: 992px) { .mdd-blockquote .blockquote p { max-width: 950px; font-size: 40px; line-height: 44px; letter-spacing: -0.02em; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-blockquote .blockquote p { background: #0069ff; } }
+
+@media (max-width: 991px) { .mdd-blockquote .blockquote.m-grid-9::before { top: 257px; background-size: contain; } }

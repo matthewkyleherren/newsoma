@@ -1,0 +1,19 @@
+.success-detal-list-wrap { background: #FFFFFF; z-index: 99; display: grid; grid-template-columns: auto auto; grid-gap: 30px; }
+
+@media (min-width: 992px) { .success-detal-list-wrap { padding: 94px 0px 0px; } }
+
+@media (max-width: 991px) { .success-detal-list-wrap { padding: 60px 0; grid-template-columns: 1fr; } }
+
+.success-detal-list-wrap h3 { font-size: 14px; line-height: 16px; letter-spacing: 0.03em; text-transform: uppercase; color: #0069ff; font-family: "KareliaWeb Bold", sans-serif; }
+
+@media (min-width: 992px) { .success-detal-list-wrap h3 { grid-column: 1/2; } }
+
+.success-detal-list-wrap .see-all { position: relative; top: 0; }
+
+@media (min-width: 992px) { .success-detal-list-wrap .see-all { grid-column: 2/3; justify-self: end; align-self: end; } }
+
+@media (max-width: 991px) { .success-detal-list-wrap .see-all { order: 2; } }
+
+@media (min-width: 992px) { .success-detal-list-wrap h3, .success-detal-list-wrap .see-all { grid-row: 1; } }
+
+@media (max-width: 991px) { .success-detal-list-wrap h4 { margin-bottom: 20px; } }

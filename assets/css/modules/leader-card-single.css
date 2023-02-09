@@ -1,0 +1,37 @@
+.leader-card-single .card { background: white; border: 1px solid #0069ff; position: relative; overflow: hidden; }
+
+.leader-card-single .card:after { content: ""; width: 161%; height: 72%; position: absolute; left: 0; top: 0; background: white; transform-origin: top left; transform: rotate(49deg); }
+
+@media (min-width: 992px) { .leader-card-single .card:after { transform: rotate(44deg); } }
+
+@media (min-width: 992px) { .leader-card-single .card { height: 460px; } }
+
+@media (min-width: 1200px) { .leader-card-single .card { width: 362px; } }
+
+@media (max-width: 991px) { .leader-card-single .card { max-width: 20rem; height: 26.25rem; } }
+
+.leader-card-single .image-wrapper { padding-top: 127.07%; }
+
+.leader-card-single .card-name-info { position: absolute; left: 16px; bottom: 16px; z-index: 3; }
+
+.leader-card-single .card-name-info .name, .leader-card-single .card-name-info .hobbies { font-size: 16px; line-height: 24px; letter-spacing: 0.02em; color: #0069ff; max-width: 11rem; }
+
+@media (min-width: 1200px) { .leader-card-single .card-name-info .name, .leader-card-single .card-name-info .hobbies { max-width: 15rem; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .leader-card-single .card-name-info .name, .leader-card-single .card-name-info .hobbies { max-width: 14rem; } }
+
+.leader-card-single .card-name-info .hobbies { line-height: 20px; }
+
+.leader-card-single .card-name-info .name { font-family: "KareliaWeb Bold", sans-serif; text-transform: uppercase; }
+
+.leader-card-single .card-name-info .position { line-height: 24px; letter-spacing: -0.02em; color: #1C1C1C; max-width: 14rem; margin-top: 10px; }
+
+@media (min-width: 992px) and (max-width: 1199px) { .leader-card-single .card-name-info .position { line-height: 28px; max-width: 15rem; } }
+
+@media (min-width: 1200px) { .leader-card-single .card-name-info .position { max-width: 19rem; } }
+
+@media (min-width: 992px) { .leader-card-single .card-name-info .position { font-size: 18px; } }
+
+.leader-card-single .card-name-info .read-more { font-size: 16px; line-height: 20px; letter-spacing: -0.02em; color: #0069ff; margin-top: 12px; position: relative; display: inline-block; }
+
+.leader-card-single .card-name-info .read-more .inline-icons { height: 15px; }

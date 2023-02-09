@@ -1,0 +1,17 @@
+.mdd-article .mdd-image img { width: 100%; height: auto; }
+
+@media (max-width: 991px) { .mdd-article .mdd-wrapper .mdd-page-content p { line-height: 26px; margin-bottom: 20px; } }
+
+@media (min-width: 992px) { .mdd-article .mdd-wrapper .mdd-page-content p { background: #FFFFFF; padding: 0px 96px 36px 96px; } }
+
+.mdd-article .mdd-wrapper .mdd-page-content p:nth-child(2) { color: #0069ff; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (min-width: 992px) { .mdd-article .mdd-wrapper .mdd-page-content p:nth-child(2) { font-size: 40px; line-height: 44px; letter-spacing: -0.02em; padding: 0px 96px 36px 96px; } }
+
+.mdd-article .mdd-wrapper .mdd-page-content p:nth-child(1) { color: #ABABAB; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (min-width: 992px) { .mdd-article .mdd-wrapper .mdd-page-content p:nth-child(1) { font-size: 40px; line-height: 44px; letter-spacing: -0.02em; background: #FFFFFF; padding: 80px 96px; } }
+
+@media (min-width: 992px) { .mdd-article .mdd-wrapper .mdd-page-content p:nth-child(4) { padding-bottom: 80px; } }
+
+.mdd-article .mdd-wrapper .mdd-page-content strong { color: #0069ff; }

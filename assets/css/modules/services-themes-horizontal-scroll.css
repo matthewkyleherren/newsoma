@@ -1,0 +1,64 @@
+@media (min-width: 992px) { .services-themes-horizontal-scroll { padding-top: 70px; } }
+
+.services-themes-horizontal-scroll .themes-wrapper { position: relative; }
+
+@media (max-width: 991px) { .services-themes-horizontal-scroll .themes-wrapper { grid-template-columns: 1fr; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .services-themes-horizontal-scroll .themes-wrapper { grid-template-columns: 1fr 1fr; grid-column-gap: unset; } }
+
+@media (min-width: 992px) { .services-themes-horizontal-scroll .themes-wrapper { grid-template-columns: 1fr 1fr; grid-column-gap: unset; }
+  .services-themes-horizontal-scroll .themes-wrapper::before { content: ''; position: absolute; width: 100%; height: 100%; z-index: -1; background: #EB262A; } }
+
+@media (min-width: 992px) { .services-themes-horizontal-scroll .theme-image { position: absolute; top: auto; left: 0; max-height: 736px; z-index: 1; overflow-y: hidden; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .services-themes-horizontal-scroll .theme-image { height: 633px; width: 50%; } }
+
+@media (max-width: 991px) { .services-themes-horizontal-scroll .theme-image-mobile { height: auto; width: 100%; padding-bottom: 140%; } }
+
+.services-themes-horizontal-scroll .theme-content-wrapper { display: flex; align-items: flex-start; }
+
+@media (min-width: 992px) { .services-themes-horizontal-scroll .theme-content-wrapper { padding: 100px 0 100px 764px; flex-direction: column; overflow-y: scroll; height: 736px; width: 100%; background: #ff000000; z-index: 2; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .services-themes-horizontal-scroll .theme-content-wrapper { padding: 100px 0 100px 574px; } }
+
+.services-themes-horizontal-scroll .theme-content-wrapper::-webkit-scrollbar { width: 0px; background: transparent; }
+
+.services-themes-horizontal-scroll .theme-content { background: #EB262A; display: -webkit-box; overflow-y: hidden; position: relative; }
+
+@media (max-width: 991px) { .services-themes-horizontal-scroll .theme-content { padding: 40px 20px; height: 504px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .services-themes-horizontal-scroll .theme-content { height: 538px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .services-themes-horizontal-scroll .theme-content { max-height: 633px; } }
+
+@media (min-width: 992px) { .services-themes-horizontal-scroll .theme-content { z-index: 2; position: relative; grid-column: 1/3; background: #ff000000; } }
+
+@media (min-width: 992px) { .services-themes-horizontal-scroll .theme-content .content { width: 504px; margin-right: 70px; padding: 100px 0; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .services-themes-horizontal-scroll .theme-content .content { width: 350px; } }
+
+@media (max-width: 991px) { .services-themes-horizontal-scroll .theme-content .content { margin-right: 10px; } }
+
+.services-themes-horizontal-scroll .theme-content h2 { font-family: "KareliaWeb Medium", sans-serif; position: relative; color: #FFFFFF; }
+
+@media (max-width: 991px) { .services-themes-horizontal-scroll .theme-content h2 { font-size: 36px; line-height: 38px; width: 310px; } }
+
+@media (min-width: 992px) { .services-themes-horizontal-scroll .theme-content h2 { font-size: 62px; line-height: 64px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .services-themes-horizontal-scroll .theme-content h2 { font-size: 40px; line-height: 44px; } }
+
+.services-themes-horizontal-scroll .theme-content .small-section-heading { text-transform: uppercase; line-height: 16px; display: block; letter-spacing: 0.03em; font-family: "KareliaWeb Bold", sans-serif; position: relative; width: fit-content; color: #FFFFFF; }
+
+@media (min-width: 992px) { .services-themes-horizontal-scroll .theme-content .small-section-heading { font-size: 14px; } }
+
+@media (max-width: 991px) { .services-themes-horizontal-scroll .theme-content .small-section-heading { font-size: 12px; margin-bottom: 20px; } }
+
+.services-themes-horizontal-scroll .theme-content .theme-list { color: #FFFFFF; list-style: disc; }
+
+@media (max-width: 991px) { .services-themes-horizontal-scroll .theme-content .theme-list { font-size: 18px; line-height: 28px; letter-spacing: -0.02em; margin-left: 36px; margin-top: 30px; } }
+
+@media (min-width: 992px) { .services-themes-horizontal-scroll .theme-content .theme-list { font-size: 24px; line-height: 38px; letter-spacing: -0.02em; margin: 42px 0px 0px 80px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .services-themes-horizontal-scroll .theme-content .theme-list { font-size: 20px; line-height: 28px; margin: 32px 0px 0px 60px; } }
+
+.services-themes-horizontal-scroll .theme-content .theme-list li { margin-bottom: 10px; }

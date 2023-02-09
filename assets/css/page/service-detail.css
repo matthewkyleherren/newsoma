@@ -1,0 +1,33 @@
+@media (max-width: 991px) { .service-detail .service-detail-hero { padding-top: 20px; } }
+
+@media (min-width: 992px) { .service-detail .service-detail-hero { padding-top: 40px; } }
+
+@media (min-width: 992px) { .service-detail .service-detail-hero .service-wrapper { max-width: 767px; margin: 0 auto; } }
+
+@media (max-width: 991px) { .service-detail .service-detail-hero .angle-icon { display: unset; } }
+
+@media (min-width: 992px) { .service-detail .service-detail-blockquote { margin: 0; } }
+
+@media (max-width: 991px) { .service-detail .service-detail-blockquote { margin: 0; } }
+
+@media (min-width: 992px) { .service-detail .service-detail-blockquote .blockquote-name p { margin: 20px 0 0 0; } }
+
+.service-detail .services-themes-horizontal-scroll { margin: 0; }
+
+@media (max-width: 991px) { .service-detail .services-themes-horizontal-scroll { margin: 0; } }
+
+@media (min-width: 992px) { .service-detail .services-text-thumb-carousal { padding-top: 140px; margin: 0; } }
+
+@media (max-width: 991px) { .service-detail .services-text-thumb-carousal .text-thumb-carousal-grid .text-thumb-list.showElementsSticky { top: 98px; } }
+
+@media (min-width: 992px) { .service-detail .success-detal-list-for-service { margin: 0; padding-top: 140px; } }
+
+@media (min-width: 992px) { .service-detail .success-detal-list-for-service .success-detal-list-wrap { margin: 0; padding-top: 0; } }
+
+@media (max-width: 991px) { .service-detail .success-detal-list-for-service .success-detal-list-wrap { margin: 0; padding: 0; } }
+
+@media (max-width: 991px) { .service-detail .success-detal-list-for-service .success-detal-list-wrap h4 { margin-bottom: 20px; } }
+
+@media (min-width: 992px) { .service-detail .insight-three-card { padding: 140px 0; margin: 0; } }
+
+.service-detail .connect-section { margin-top: 0; }

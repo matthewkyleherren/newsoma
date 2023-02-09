@@ -1,0 +1,13 @@
+.newsroom-three-card { background: #FFFFFF; }
+
+@media (max-width: 991px) { .newsroom-three-card .container .inline-icons { width: 20px !important; height: 20px !important; } }
+
+@media (min-width: 992px) { .newsroom-three-card .container .newsroom-grid { display: grid; grid-template-columns: auto auto auto; grid-column-gap: 30px; margin-top: 24px; } }
+
+.newsroom-three-card .container h3 { font-size: 14px; line-height: 16px; letter-spacing: 0.03em; text-transform: uppercase; color: #0069ff; font-family: "KareliaWeb Bold", sans-serif; margin: 20px 0; }
+
+.newsroom-three-card .container .newsroom-three-grid { position: relative; }
+
+@media (max-width: 991px) { .newsroom-three-card .container .newsroom-three-grid { grid-row-gap: 20px; grid-template-columns: auto; margin: 20px 0; } }
+
+.newsroom-three-card .container .newsroom-three-grid .newsroom-three-card-single:nth-child(odd) .red-dot-bg::before { filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(253%) contrast(103%); }

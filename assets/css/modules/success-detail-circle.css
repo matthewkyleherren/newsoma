@@ -1,0 +1,36 @@
+@media (max-width: 991px) { .success-circle { margin: 20px 0 80px 0; } }
+
+@media (min-width: 1200px) { .success-circle { background: #FFFFFF; margin: 60px 0; max-width: 1146px; } }
+
+.success-circle .success-grid-container { overflow: hidden; justify-content: space-evenly; grid-column-gap: unset; }
+
+@media (max-width: 991px) { .success-circle .success-grid-container { z-index: 999; position: relative; grid-template-columns: auto auto; grid-column-gap: 12px; grid-row-gap: 12px; } }
+
+@media (min-width: 992px) { .success-circle .success-grid-container { grid-template-columns: repeat(4, auto); background: #FFFFFF; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .success-circle .success-grid-container { max-width: 860px; margin: 0 auto; } }
+
+.success-circle .success-grid-container .circle-content { position: relative; display: flex; justify-content: center; align-items: center; }
+
+@media (max-width: 991px) { .success-circle .success-grid-container .circle-content { width: 153px; height: 153px; } }
+
+@media (min-width: 992px) { .success-circle .success-grid-container .circle-content { width: 180px; height: 180px; }
+  .success-circle .success-grid-container .circle-content:last-child { margin-right: 0; } }
+
+.success-circle .success-grid-container .circle-content::after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(220, 220, 220, 0.3); z-index: 0; border-radius: 50%; }
+
+.success-circle .success-grid-container .circle-content:nth-child(even)::after { background: #0069ff; }
+
+.success-circle .success-grid-container .circle-content:nth-child(even) p { color: #FFFFFF; }
+
+.success-circle .success-grid-container .circle-content .content-text { color: #0069ff; font-family: "KareliaWeb Bold", sans-serif; text-transform: uppercase; text-align: center; z-index: 1; }
+
+@media (max-width: 991px) { .success-circle .success-grid-container .circle-content .content-text { font-size: 10px; line-height: 15px; max-width: 70%; letter-spacing: 0.04em; } }
+
+@media (min-width: 992px) { .success-circle .success-grid-container .circle-content .content-text { font-size: 14px; line-height: 16px; letter-spacing: 0.03em; max-width: 152px; } }
+
+.success-circle .success-grid-container .circle-content .content-text strong, .success-circle .success-grid-container .circle-content .content-text b { text-transform: uppercase; display: block; color: #FFFFFF; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (max-width: 991px) { .success-circle .success-grid-container .circle-content .content-text strong, .success-circle .success-grid-container .circle-content .content-text b { font-size: 31px; line-height: 34px; letter-spacing: -0.04em; } }
+
+@media (min-width: 992px) { .success-circle .success-grid-container .circle-content .content-text strong, .success-circle .success-grid-container .circle-content .content-text b { font-size: 40px; line-height: 44px; letter-spacing: -0.02em; display: block; margin-top: 6px; } }

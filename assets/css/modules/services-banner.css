@@ -1,0 +1,47 @@
+.services-banner { position: relative; margin-top: 0; }
+
+@media (min-width: 992px) { .services-banner { margin-bottom: 93px; } }
+
+.services-banner .fp-scroller { height: 100vh; }
+
+.services-banner-text-cont { position: absolute; transform: translate(-50%, -50%); top: 50%; left: 50%; color: #FFFFFF; z-index: 100; }
+
+@media (max-width: 991px) { .services-banner-text-cont { width: 100%; padding: 0 20px; } }
+
+@media (min-width: 992px) { .services-banner-text-cont { width: 559px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .services-banner-text-cont { width: 70%; } }
+
+.services-banner-text-cont h1 { font-family: "KareliaWeb Medium", sans-serif; letter-spacing: -0.04em; }
+
+@media (max-width: 991px) { .services-banner-text-cont h1 { font-size: 54px; line-height: 56px; } }
+
+@media (min-width: 992px) { .services-banner-text-cont h1 { font-size: 82px; line-height: 80px; width: 445px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .services-banner-text-cont h1 { font-size: 82px; line-height: 80px; } }
+
+.services-banner-text-cont p { float: right; }
+
+@media (max-width: 991px) { .services-banner-text-cont p { font-size: 20px; line-height: 28px; width: 83%; margin-top: 24px; } }
+
+@media (min-width: 992px) { .services-banner-text-cont p { width: 69%; font-size: 24px; line-height: 32px; letter-spacing: -0.02em; margin-top: 16px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .services-banner-text-cont p { font-size: 24px; line-height: 32px; } }
+
+.services-banner-img-cont { position: relative; }
+
+@media (min-width: 992px) { .services-banner-img-cont::before { height: 100vh; } }
+
+@media (min-width: 992px) { .services-banner-img-cont { height: inherit; width: 100%; } }
+
+.services-banner-img-cont .services-banner-grid { position: absolute; z-index: 100; }
+
+.services-banner-img-cont .services-banner-bg::after { content: ''; background-color: black; opacity: 0.2; top: 0; left: 0; position: absolute; z-index: -1; width: 100%; height: 100%; }
+
+@media (min-width: 992px) { .responsive-img-wrapper { position: relative; width: 100%; } }
+
+@media (max-width: 991px) { .responsive-img-wrapper { padding: 0; height: 79vh; width: 100%; } }
+
+@media (max-width: 991px) { .responsive-img-wrapper img { width: auto; height: 100%; max-width: unset; } }
+
+@media (min-width: 992px) { .responsive-img-wrapper img { width: 100%; height: auto; } }

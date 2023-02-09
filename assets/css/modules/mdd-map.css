@@ -1,0 +1,28 @@
+@media (max-width: 991px) { .mdd-map .red-dot-bg::before { left: 2px; } }
+
+.mdd-map .map-grid { display: grid; }
+
+@media (min-width: 992px) { .mdd-map .map-grid .map-image { grid-column: 1/3; grid-row: 2; margin: 40px 20px; padding: 0px 20px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-map .map-grid .map-image { margin: 0; } }
+
+@media (max-width: 991px) { .mdd-map .map-grid .map-image { z-index: 5; background: #FFFFFF; } }
+
+@media (max-width: 991px) { .mdd-map .map-grid .map-country { overflow-x: scroll; overflow-y: hidden; display: -webkit-box; background: #FFFFFF; padding: 40px 20px; z-index: 99; } }
+
+@media (min-width: 992px) { .mdd-map .map-grid .map-country { grid-row: 2; margin: 40px 0; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .mdd-map .map-grid .map-country { margin: 0; } }
+
+@media (max-width: 991px) { .mdd-map .map-grid .map-country .country-list { margin-right: 9.167vw; }
+  .mdd-map .map-grid .map-country .country-list:last-child { padding-right: 20px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .mdd-map .map-grid .map-country .country-list { margin-right: 5.167vw; } }
+
+@media (min-width: 992px) { .mdd-map .map-grid .map-country ol { margin-bottom: 20px; } }
+
+.mdd-map .map-grid .map-country ol li:first-child { color: #0069ff; font-size: 14px; line-height: 16px; letter-spacing: 0.03em; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (max-width: 991px) { .mdd-map .map-grid .map-country ol li { margin-bottom: 12px; font-size: 16px; line-height: 18px; } }
+
+@media (min-width: 992px) { .mdd-map .map-grid .map-country ol li { font-size: 12px; line-height: 16px; margin: 4px 0; letter-spacing: -0.02em; } }

@@ -1,0 +1,29 @@
+.prodapt-foundation-scroll-image .foundation-philosophy-content { color: #ABABAB; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (min-width: 992px) { .prodapt-foundation-scroll-image .foundation-philosophy-content { font-size: 40px; line-height: 44px; } }
+
+@media (max-width: 991px) { .prodapt-foundation-scroll-image .foundation-philosophy-content { font-size: 18px; line-height: 26px; } }
+
+.prodapt-foundation-scroll-image .foundation-philosophy-content strong { color: #0069ff; }
+
+.prodapt-foundation-scroll-image .foundation-scrolling-image { display: -webkit-box; overflow-x: scroll; overflow-y: hidden; }
+
+@media (min-width: 992px) { .prodapt-foundation-scroll-image .foundation-scrolling-image { width: 100%; margin-bottom: 60px; background: #FFFFFF; padding: 0px 20px; } }
+
+@media (max-width: 991px) { .prodapt-foundation-scroll-image .foundation-scrolling-image .card { margin-right: 10px; } }
+
+@media (min-width: 992px) { .prodapt-foundation-scroll-image .foundation-scrolling-image .card { margin-right: 30px; } }
+
+.prodapt-foundation-scroll-image .foundation-scrolling-image .card:last-child { margin-right: 0; }
+
+.prodapt-foundation-scroll-image .foundation-scrolling-image .card .images-wrapper { position: relative; overflow: hidden; }
+
+.prodapt-foundation-scroll-image .foundation-scrolling-image .card .images-wrapper img { height: unset; }
+
+@media (max-width: 991px) { .prodapt-foundation-scroll-image .foundation-scrolling-image .card .images-wrapper { width: 300px; } }
+
+@media (min-width: 992px) { .prodapt-foundation-scroll-image .foundation-scrolling-image .card .images-wrapper { width: 754px; background: #FFFFFF; } }
+
+.prodapt-foundation-scroll-image .foundation-scrolling-image .card span { line-height: 18px; display: block; margin: 12px 0px; }
+
+@media (max-width: 991px) { .prodapt-foundation-scroll-image .foundation-scrolling-image .card span { max-width: 310px; } }

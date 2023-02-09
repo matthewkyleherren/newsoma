@@ -1,0 +1,37 @@
+.success-stories-card-single { background-color: rgba(220, 220, 220, 0.3); display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end; }
+
+@media (max-width: 991px) { .success-stories-card-single { order: 1; } }
+
+.success-stories-card-img { position: relative; width: 100%; height: 0px; padding-bottom: 45%; overflow: hidden; }
+
+.success-stories-card-img img { position: absolute; width: 100%; left: 50%; top: 50%; transform: translate(-50%, -50%); height: auto; }
+
+.success-stories-card-text { padding: 20px 16px 40px 16px; }
+
+@media (min-width: 992px) { .success-stories-card-text { padding: 24px 62px 31px 24px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .success-stories-card-text { padding: 24px; } }
+
+.success-stories-card-text .success-card-tag { font-family: "KareliaWeb Bold", sans-serif; font-size: 12px; line-height: 16px; color: #0069ff; letter-spacing: 0.04em; }
+
+@media (min-width: 992px) { .success-stories-card-text .success-card-tag { font-size: 14px; line-height: 16px; letter-spacing: 0.03em; } }
+
+.success-stories-card-text h4 { font-family: "KareliaWeb Medium", sans-serif; margin-top: 20px; font-size: 24px; line-height: 30px; letter-spacing: -0.02em; color: #0069ff; }
+
+@media (min-width: 992px) { .success-stories-card-text h4 { font-size: 40px; line-height: 44px; letter-spacing: -0.02em; margin-top: 16px; } }
+
+.success-stories-card-text .success-stories-desc { font-size: 18px; line-height: 28px; color: #1C1C1C; margin-top: 20px; font-family: "KareliaWeb Regular", sans-serif; margin: 0; }
+
+@media (min-width: 992px) { .success-stories-card-text .success-stories-desc { font-size: 16px; line-height: 26px; letter-spacing: -0.02em; } }
+
+.success-stories-card-text button.red-btn { min-height: auto; margin-top: 20px; }
+
+@media (min-width: 992px) { .success-stories-card-text button.red-btn { margin: 30px 60px 0 0; } }
+
+@media (min-width: 992px) { .success-stories-card-text .success-stories-card-bottom { display: flex; margin-top: 44px; } }
+
+@media (min-width: 992px) { .success-stories-card-text .success-stories-card-bottom .success-stories-desc { order: 2; } }
+
+@media (min-width: 992px) { .success-stories-card-text .success-stories-card-bottom .success-stories-card-btn-wrapper { min-width: 100px; display: block; position: relative; } }
+
+@media (min-width: 992px) { .success-stories-card-text .success-stories-card-bottom button.red-btn { order: 1; position: absolute; margin: 0; bottom: 0; left: 0; } }

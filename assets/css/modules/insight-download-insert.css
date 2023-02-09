@@ -1,0 +1,71 @@
+.insight-download-insert { margin: 60px 20px 20px 20px; }
+
+.insight-download-insert .container { background: #0069ff; }
+
+@media (max-width: 991px) { .insight-download-insert .container { margin: 20px auto; padding: 24px; } }
+
+@media (min-width: 1200px) { .insight-download-insert .container { max-width: 950px; min-height: 522px; margin: 0px auto; } }
+
+.insight-download-insert .container h4 { color: #FFFFFF; font-family: "KareliaWeb Medium", sans-serif; letter-spacing: -0.02em; }
+
+@media (max-width: 991px) { .insight-download-insert .container h4 { font-size: 24px; line-height: 30px; } }
+
+@media (min-width: 992px) { .insight-download-insert .container h4 { font-size: 40px; line-height: 44px; } }
+
+.insight-download-insert .container p { color: #FFFFFF; }
+
+@media (max-width: 991px) { .insight-download-insert .container p { margin: 20px 0; } }
+
+@media (min-width: 992px) { .insight-download-insert .container .insight-download { padding: 40px 41px 32px 41px; } }
+
+.insight-download-insert .container .insight-download .insight-download-point { padding-left: 20px; margin: 24px 0px; }
+
+.insight-download-insert .container .insight-download .insight-download-point ul li { color: #FFFFFF; display: revert; list-style: disc; letter-spacing: -0.02em; }
+
+@media (max-width: 991px) { .insight-download-insert .container .insight-download .insight-download-point ul li { font-size: 18px; line-height: 28px; } }
+
+@media (min-width: 992px) { .insight-download-insert .container .insight-download .insight-download-point ul li { font-size: 24px; line-height: 38px; } }
+
+@media (max-width: 991px) { .insight-download-insert .container .insight-download button.red-btn { margin-top: 0; min-height: 0; width: 40px; height: 40px; cursor: pointer; } }
+
+@media (min-width: 992px) { .insight-download-insert .container .insight-download button.red-btn { margin: 4px 0px; margin-top: 0; min-height: 0; } }
+
+.insight-download-insert .container .insight-download p { font-size: 16px; line-height: 20px; color: #FFFFFF; }
+
+@media (max-width: 991px) { .insight-download-insert .container .insight-download p { margin: 0; } }
+
+@media (min-width: 992px) { .insight-download-insert .container .download-insight { padding: 40px; height: 522px; } }
+
+@media (min-width: 992px) { .insight-download-insert .container .download-insight .download-insight-content { margin: 40px 0; float: left; } }
+
+@media (min-width: 992px) { .insight-download-insert .container .download-insight .download-insight-content p { margin-top: 40px 0; max-width: 418px; } }
+
+.insight-download-insert .container .download-insight input:focus { background-color: #FFFFFF; color: #0069ff; }
+
+@media (max-width: 991px) { .insight-download-insert .container .download-insight input { width: 100%; margin-bottom: 12px; } }
+
+@media (min-width: 992px) { .insight-download-insert .container .download-insight .insight-form { display: grid; grid-row-gap: 10px; grid-column-gap: 10px; margin: 40px 0; } }
+
+.insight-download-insert .container .download-insight .insight-form .form-button button { background: #FFFFFF; color: #0069ff; font-size: 16px; }
+
+@media (max-width: 991px) { .insight-download-insert .container .download-insight .insight-form .form-button button { font-weight: unset; } }
+
+@media (min-width: 992px) { .insight-download-insert .container .download-insight .insight-form .form-button button { padding: 11px 38px; } }
+
+.insight-download-insert .container .download-insight .insight-form .check { cursor: pointer; }
+
+@media (min-width: 992px) { .insight-download-insert .container .download-insight .insight-form .check { grid-column: 1/3; } }
+
+@media (max-width: 991px) { .insight-download-insert .container .download-insight .insight-form .check input { width: 15px; } }
+
+.insight-download-insert .container .download-insight .insight-form .check label { color: #FFFFFF; letter-spacing: -0.02em; }
+
+@media (max-width: 991px) { .insight-download-insert .container .download-insight .insight-form .check label { font-size: 12px; line-height: 18px; margin-right: 8px; max-width: 185px; } }
+
+@media (min-width: 992px) { .insight-download-insert .container .download-insight .insight-form .check label { font-size: 18px; line-height: 20px; } }
+
+@media (max-width: 991px) { .insight-download-insert .thanku { height: 576px; } }
+
+@media (min-width: 992px) { .insight-download-insert .thanku { height: 460px; padding: 40px 41px; } }
+
+@media (min-width: 992px) { .insight-download-insert .thanku p { margin-top: 40px; } }

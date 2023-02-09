@@ -1,0 +1,57 @@
+.about-us-purpose-card .container-right-fluid { padding-left: 20px; }
+
+.about-us-purpose-card .subservice-grid h3 { font-size: 14px; line-height: 16px; letter-spacing: 0.03em; text-transform: uppercase; color: #0069ff; font-weight: 700; font-family: "KareliaWeb Bold", sans-serif; }
+
+.about-us-purpose-card .subservice-grid .aboutus-card { grid-template-columns: 1fr; grid-row-gap: 20px; display: grid; margin: 20px 0; }
+
+@media (min-width: 992px) { .about-us-purpose-card .subservice-grid .aboutus-card { grid-template-columns: 1fr 1fr 1fr; margin: 22px 0 0; grid-row-gap: 0; grid-coloumn-gap: 30px; overflow-x: scroll; } }
+
+.about-us-purpose-card .subservice-grid .aboutus-card .card { position: relative; outline: 1px solid #0069ff; outline-offset: -1px; margin: 0; overflow: hidden; }
+
+@media (max-width: 991px) { .about-us-purpose-card .subservice-grid .aboutus-card .card { height: 300px; } }
+
+@media (min-width: 992px) { .about-us-purpose-card .subservice-grid .aboutus-card .card { width: 100%; min-height: 362px; } }
+
+.about-us-purpose-card .subservice-grid .aboutus-card .card .outer-triangle { position: absolute; top: 0; right: 0; }
+
+.about-us-purpose-card .subservice-grid .aboutus-card .card a { position: relative; display: block; min-height: inherit; }
+
+.about-us-purpose-card .subservice-grid .aboutus-card .card::after { width: 100%; height: 1px; position: absolute; transform: rotate(45deg); background: #0069ff; transform-origin: left; top: -1px; left: 50%; }
+
+@media (min-width: 768px) and (max-width: 991px) { .about-us-purpose-card .subservice-grid .aboutus-card .card::after { left: 63%; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .about-us-purpose-card .subservice-grid .aboutus-card .card::after { left: 67%; } }
+
+.about-us-purpose-card .subservice-grid .aboutus-card .card:last-child { margin-right: 0; }
+
+.about-us-purpose-card .subservice-grid .aboutus-card .card .card-content { position: absolute; bottom: 20px; padding: 0 0px 0 18px; }
+
+.about-us-purpose-card .subservice-grid .aboutus-card .card .card-content h4 { font-size: 40px; line-height: 44px; letter-spacing: -0.02em; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (max-width: 991px) { .about-us-purpose-card .subservice-grid .aboutus-card .card .card-content h4 { letter-spacing: -0.04em; font-size: 36px; line-height: 38px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .about-us-purpose-card .subservice-grid .aboutus-card .card .card-content h4 { font-size: 32px; line-height: 36px; } }
+
+.about-us-purpose-card .subservice-grid .aboutus-card .card .card-content .purpose-link { color: #0069ff; margin: 16px 0 0 0; }
+
+.about-us-purpose-card .subservice-grid .aboutus-card .card .card-content .purpose-link li { letter-spacing: -0.02em; }
+
+@media (min-width: 992px) { .about-us-purpose-card .subservice-grid .aboutus-card .card .card-content .purpose-link li { font-size: 24px; line-height: 38px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .about-us-purpose-card .subservice-grid .aboutus-card .card .card-content .purpose-link li { font-size: 16px; line-height: 18px; } }
+
+@media (max-width: 991px) { .about-us-purpose-card .subservice-grid .aboutus-card .card .card-content .purpose-link li { font-size: 18px; line-height: 28px; } }
+
+.about-us-purpose-card .subservice-grid .aboutus-card .card .card-content .purpose-link .arrow-left-red { margin-left: 0px; background-size: inherit; width: 8px; }
+
+.traingle { height: 1px; right: 0; top: 0; position: absolute; overflow: hidden; border-left: 1px solid #0069ff; border-bottom: 1px solid #0069ff; }
+
+@media (min-width: 992px) { .traingle { width: 90px; height: 90px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .traingle { width: 43px; height: 43px; } }
+
+@media (max-width: 991px) { .traingle { width: 22.222vw; height: 22.222vw; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .traingle { width: 100px; height: 100px; } }
+
+.traingle::before { content: " "; width: 100vw; height: 1px; position: absolute; transform: rotate(45deg); background: #0069ff; transform-origin: left; }

@@ -1,0 +1,53 @@
+@media (min-width: 992px) { .service-detail-blockquote { padding-bottom: 70px; } }
+
+@media (max-width: 991px) { .service-detail-blockquote.red-dot-bg::before { left: 2px; } }
+
+@media (max-width: 991px) { .service-detail-blockquote .container { padding: 42px 35px 58px 35px; } }
+
+@media (min-width: 992px) { .service-detail-blockquote .container { padding: 63px; } }
+
+.service-detail-blockquote .blockquote-card { position: relative; z-index: 999; background: white; }
+
+@media (min-width: 992px) { .service-detail-blockquote .blockquote-card { max-width: 674px; margin: 0 auto; border: 10px solid #FFFFFF; } }
+
+@media (max-width: 991px) { .service-detail-blockquote .blockquote-card { padding: 10px; } }
+
+.service-detail-blockquote .blockquote-card p { margin: 20px 0; letter-spacing: -0.02em; }
+
+@media (max-width: 991px) { .service-detail-blockquote .blockquote-card p { max-width: 84%; font-size: 24px; line-height: 30px; } }
+
+@media (min-width: 992px) { .service-detail-blockquote .blockquote-card p { font-size: 32px; line-height: 36px; margin: 34px 0; max-width: 556px; padding: 0; } }
+
+.service-detail-blockquote .blockquote-card::before { content: ""; position: absolute; right: 0px; top: 0px; border-top: 93px solid #0069ff; border-left: 93px solid transparent; }
+
+@media (min-width: 992px) { .service-detail-blockquote .blockquote-card::before { border-top: 148px solid #0069ff; border-left: 168px solid transparent; } }
+
+.service-detail-blockquote .blockquote-card .blockquote-icon { width: 34px; height: 30px; }
+
+@media (min-width: 992px) { .service-detail-blockquote .blockquote-card .blockquote-icon { width: 68px; height: 61px; } }
+
+.service-detail-blockquote .blockquote-card .square { background: #0069ff; border-left: 1px solid white; height: 48px; width: 48px; top: 0px; right: 0px; position: absolute; border-bottom: 1px solid white; overflow: hidden; }
+
+@media (min-width: 992px) { .service-detail-blockquote .blockquote-card .square { height: 80px; width: 80px; } }
+
+.service-detail-blockquote .blockquote-card .square::before { top: 0; content: " "; width: 66px; height: 1px; position: absolute; transform: rotate(45deg); background: #FFFFFF; transform-origin: left; left: 0; z-index: 2; }
+
+@media (min-width: 992px) { .service-detail-blockquote .blockquote-card .square::before { width: 110px; } }
+
+@media (min-width: 992px) { .service-detail-blockquote .blockquote-card .blockquote-name { display: flex; justify-content: space-between; align-items: center; } }
+
+.service-detail-blockquote .blockquote-card .blockquote-name p { letter-spacing: -0.02em; font-family: "KareliaWeb Regular", sans-serif; text-transform: capitalize; }
+
+@media (max-width: 991px) { .service-detail-blockquote .blockquote-card .blockquote-name p { font-size: 12px; line-height: 18px; max-width: 100%; } }
+
+@media (min-width: 992px) { .service-detail-blockquote .blockquote-card .blockquote-name p { font-size: 16px; line-height: 26px; } }
+
+.service-detail-blockquote .blockquote-card .blockquote-name p strong { font-family: "KareliaWeb Bold", sans-serif; }
+
+.service-detail-blockquote .blockquote-card .blockquote-name span { width: 21px; height: 17px; cursor: pointer; }
+
+.service-detail-blockquote .blockquote-card .blockquote-name span:last-child { margin-right: 0; }
+
+@media (max-width: 991px) { .service-detail-blockquote .blockquote-card .blockquote-name span { margin-right: 20px; } }
+
+@media (min-width: 992px) { .service-detail-blockquote .blockquote-card .blockquote-name span { margin-right: 14px; } }

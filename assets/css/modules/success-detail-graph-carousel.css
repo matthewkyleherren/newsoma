@@ -1,0 +1,33 @@
+@media (max-width: 991px) { .success-graph-carousel { margin: 0; } }
+
+@media (min-width: 992px) { .success-graph-carousel { background: #FFFFFF; margin: 80px 0 0 0; padding: 80px 96px; } }
+
+@media (max-width: 991px) { .success-graph-carousel .success-graph-wrapper { padding: 0px 0px 0px 20px; margin: 0 auto; background: #FFFFFF; } }
+
+.success-graph-carousel h4 { font-family: "KareliaWeb Medium", sans-serif; font-size: 24px; line-height: 30px; letter-spacing: -0.02em; margin-bottom: 40px; }
+
+@media (min-width: 992px) { .success-graph-carousel h4 { font-size: 40px; line-height: 44px; } }
+
+.success-graph-carousel .success-carousel { display: -webkit-box; overflow-x: scroll; overflow-y: hidden; }
+
+@media (max-width: 991px) { .success-graph-carousel .success-carousel { padding: 0 20px; } }
+
+.success-graph-carousel .success-carousel strong { font-family: "KareliaWeb Medium", sans-serif; font-size: 54px; line-height: 56px; letter-spacing: -0.04em; color: #0069ff; width: fit-content; display: block; margin-right: 13px; }
+
+@media (min-width: 992px) { .success-graph-carousel .success-carousel strong { font-size: 82px; line-height: 80px; } }
+
+.success-graph-carousel .success-carousel .down-arrow-icon { width: 63px; height: 63px; vertical-align: text-bottom; }
+
+.success-graph-carousel .success-carousel p { color: #0069ff; font-family: "KareliaWeb Medium", sans-serif; font-size: 12px; line-height: 16px; letter-spacing: 0.04em; }
+
+@media (min-width: 992px) { .success-graph-carousel .success-carousel p { font-size: 14px; line-height: 16px; letter-spacing: 0.03em; } }
+
+.success-graph-carousel .success-carousel img { margin: 20px 0; }
+
+.success-graph-carousel .success-carousel .carousel { margin-right: 40px; margin-left: -10px; }
+
+@media (min-width: 992px) { .success-graph-carousel .success-carousel .carousel { margin-right: 120px; } }
+
+.success-graph-carousel .success-carousel .carousel:last-child { margin-right: 0; }
+
+.success-graph-carousel .success-carousel .carousel .down-arrow-icon.up-arrow { transform: rotate(-180deg); }

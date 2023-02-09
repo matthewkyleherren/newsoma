@@ -1,0 +1,27 @@
+.service-detail-hero { margin: 24px 0; }
+
+@media (min-width: 992px) { .service-detail-hero { margin: 40px 0; } }
+
+@media (max-width: 991px) { .service-detail-hero .angle-icon { display: none; } }
+
+.service-detail-hero p { cursor: pointer; letter-spacing: 0.04em; font-family: "KareliaWeb Bold", sans-serif; color: #0069ff; }
+
+@media (max-width: 991px) { .service-detail-hero p { font-size: 12px; line-height: 16px; } }
+
+@media (min-width: 992px) { .service-detail-hero p { font-size: 14px; letter-spacing: 0.03em; line-height: 16px; } }
+
+.service-detail-hero p .inline-icons { width: 20px; height: 20px; cursor: unset; }
+
+@media (max-width: 991px) { .service-detail-hero p .inline-icons { margin-left: -10px; display: none; } }
+
+.service-detail-hero p.hero-content { color: #1C1C1C; font-family: "KareliaWeb Regular", sans-serif; }
+
+@media (max-width: 991px) { .service-detail-hero p.hero-content { font-size: 18px; line-height: 28px; letter-spacing: unset; } }
+
+@media (min-width: 992px) { .service-detail-hero p.hero-content { font-size: 24px; line-height: 38px; letter-spacing: -0.02em; max-width: 816px; margin: 0 auto; margin-top: 16px; } }
+
+.service-detail-hero h1 { color: #0069ff; letter-spacing: -0.04em; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (max-width: 991px) { .service-detail-hero h1 { font-size: 36px; line-height: 38px; margin: 20px 0px; } }
+
+@media (min-width: 992px) { .service-detail-hero h1 { line-height: 80px; font-size: 82px; margin: 24px 0px; } }

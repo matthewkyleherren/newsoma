@@ -1,0 +1,41 @@
+.foundation-scope .foundation-wrapper p { font-family: "KareliaWeb Medium", sans-serif; }
+
+.foundation-scope .foundation-wrapper p strong { color: #0069ff; }
+
+@media (max-width: 991px) { .foundation-scope .foundation-wrapper p { font-size: 24px; line-height: 30px; } }
+
+@media (min-width: 992px) { .foundation-scope .foundation-wrapper p { font-size: 40px; line-height: 44px; } }
+
+.foundation-scope .foundation-wrapper .circle-wrapper { display: grid; grid-gap: 10px; }
+
+@media (min-width: 992px) { .foundation-scope .foundation-wrapper .circle-wrapper { grid-template-columns: repeat(4, auto); margin-top: 60px; grid-column-gap: 70px; } }
+
+@media (max-width: 991px) { .foundation-scope .foundation-wrapper .circle-wrapper { grid-template-columns: auto auto; margin: 40px 0px; justify-items: center; } }
+
+.foundation-scope .foundation-wrapper .circle-wrapper .circle-content { position: relative; display: flex; justify-content: center; align-items: center; border-radius: 100%; background: #0069ff; }
+
+@media (max-width: 991px) { .foundation-scope .foundation-wrapper .circle-wrapper .circle-content { width: 153px; height: 153px; } }
+
+@media (min-width: 992px) { .foundation-scope .foundation-wrapper .circle-wrapper .circle-content { width: 185px; height: 185px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .foundation-scope .foundation-wrapper .circle-wrapper .circle-content { width: 155px; height: 155px; } }
+
+.foundation-scope .foundation-wrapper .circle-wrapper .circle-content .content-text { color: #FFFFFF; font-family: "KareliaWeb Bold", sans-serif; text-transform: uppercase; text-align: center; z-index: 1; }
+
+@media (max-width: 991px) { .foundation-scope .foundation-wrapper .circle-wrapper .circle-content .content-text { font-size: 10px; line-height: 15px; max-width: 68%; letter-spacing: 0.04em; } }
+
+@media (min-width: 992px) { .foundation-scope .foundation-wrapper .circle-wrapper .circle-content .content-text { font-size: 14px; line-height: 16px; letter-spacing: 0.03em; max-width: 152px; } }
+
+.foundation-scope .foundation-wrapper .scope-link { font-size: 18px; line-height: 28px; cursor: pointer; }
+
+@media (max-width: 991px) { .foundation-scope .foundation-wrapper .scope-link { margin-top: 20px; } }
+
+@media (min-width: 992px) { .foundation-scope .foundation-wrapper .scope-link { margin-top: 60px; } }
+
+@media (min-width: 992px) { .foundation-scope .foundation-wrapper .scope-link li:first-child { margin-right: 60px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .foundation-scope .foundation-wrapper .scope-link li:first-child { margin-right: 30px; } }
+
+@media (max-width: 991px) { .foundation-scope .foundation-wrapper .scope-link li:first-child { margin-bottom: 20px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .foundation-scope .foundation-wrapper .scope-link li:first-child { margin-right: 20px; } }

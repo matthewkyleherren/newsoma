@@ -1,0 +1,11 @@
+.career-small-number-card { width: 264px; height: 230px; position: relative; padding: 16px 20px; }
+
+.career-small-number-card .career-small-number-card-bg { position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: -1; }
+
+@media (min-width: 992px) { .career-small-number-card .career-small-number-card-heading { font-family: "KareliaWeb Medium", sans-serif; font-size: 40px; line-height: 44px; letter-spacing: -0.03em; } }
+
+.career-small-number-card .career-small-number-card-text { font-family: "KareliaWeb Regular", sans-serif; font-size: 24px; line-height: 30px; letter-spacing: -0.02em; }
+
+.career-small-number-card .career-small-number-card-heading, .career-small-number-card .career-small-number-card-text { color: white; }
+
+.career-small-number-card .career-small-number-card-text-wrap { display: flex; flex-direction: column; justify-content: space-between; height: 100%; }

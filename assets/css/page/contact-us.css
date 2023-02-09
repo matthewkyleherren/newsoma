@@ -1,0 +1,5 @@
+@media (min-width: 992px) { .contact-us .contact-us-grid { grid-template-rows: auto auto 1fr; } }
+
+@media (max-width: 991px) { .contact-us .contact-us-grid { display: block; } }
+
+@media (max-width: 767px) { .contact-us .grid-7-anim { top: auto !important; bottom: 0; } }

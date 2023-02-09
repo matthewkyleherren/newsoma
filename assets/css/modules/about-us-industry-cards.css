@@ -1,0 +1,11 @@
+.about-us-industry-cards span { color: #0069ff; font-family: "KareliaWeb Bold", sans-serif; font-size: 14px; line-height: 16px; }
+
+@media (max-width: 991px) { .about-us-industry-cards .container-right-fluid { padding: 0px 20px; } }
+
+.about-us-industry-cards .card-wrapper { margin-top: 24px; display: grid; }
+
+@media (min-width: 992px) { .about-us-industry-cards .card-wrapper { grid-template-columns: auto auto auto; } }
+
+@media (min-width: 1200px) { .about-us-industry-cards .card-wrapper { grid-column-gap: 30px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .about-us-industry-cards .card-wrapper { overflow-x: scroll; } }

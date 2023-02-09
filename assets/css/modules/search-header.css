@@ -1,0 +1,40 @@
+.search-header { background: #0069ff; margin: 0; }
+
+@media (min-width: 992px) { .search-header { min-height: 340px; } }
+
+@media (max-width: 991px) { .search-header { min-height: 144px; }
+  .search-header svg#grid-7 { top: -1px; } }
+
+.header-wrap { justify-content: center; align-items: center; padding: 40px 20px; }
+
+@media (min-width: 992px) { .header-wrap { padding-top: 100px; } }
+
+.header-wrap .search_box { border: 1px solid #FFFFFF; position: relative; display: flex; background-color: #0069ff; z-index: 99; align-items: center; }
+
+@media (min-width: 992px) { .header-wrap .search_box { padding: 15px 60px 15px 70px; max-width: 1067px; height: 100px; } }
+
+@media (max-width: 991px) { .header-wrap .search_box { padding: 10px; } }
+
+.header-wrap .search_box .search_btn { position: absolute; left: 20px; }
+
+@media (min-width: 992px) { .header-wrap .search_box .search_btn { width: 35px; height: 35px; top: 35%; } }
+
+@media (max-width: 991px) { .header-wrap .search_box .search_btn { width: 24px; height: 24px; padding: 0; left: 10px; } }
+
+.header-wrap .search_box .input-search { border: 0; position: relative; width: 100%; }
+
+@media (max-width: 991px) { .header-wrap .search_box .input-search { font-size: 24px; line-height: 30px; padding: 0 30px; } }
+
+@media (min-width: 992px) { .header-wrap .search_box .input-search { font-size: 40px; line-height: 52px; padding: 0; } }
+
+.header-wrap ::placeholder { color: #FFFFFF; }
+
+@media (max-width: 991px) { .header-wrap ::placeholder { font-size: 24px; line-height: 30px; } }
+
+@media (min-width: 992px) { .header-wrap ::placeholder { font-size: 40px; line-height: 42px; } }
+
+.header-wrap ::-webkit-input-value { color: #fff; }
+
+.header-wrap :-ms-input-value { color: #fff; font-family: "KareliaWeb Medium", sans-serif; }
+
+.input-search:not(:valid) ~ .cross-icon { display: none; }

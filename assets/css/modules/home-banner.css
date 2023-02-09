@@ -1,0 +1,119 @@
+.home-hero-section { margin: 0; position: relative; }
+
+@media (min-width: 992px) { .home-hero-section { display: flex; align-items: center; justify-content: center; overflow: hidden; transform: translateZ(0); } }
+
+@media (min-width: 1200px) { .home-hero-section { height: calc(100vh - 50px); } }
+
+@media (max-width: 991px) { .home-hero-section { min-height: 177.778vw; height: 177.778vw; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .home-hero-section .container-fluid { position: absolute; } }
+
+.home-hero-section svg { position: absolute; top: 0; left: 0; z-index: 99; }
+
+@media (min-width: 1200px) { .home-hero-section svg { max-height: 855px; } }
+
+@media (min-width: 992px) { .home-hero-section svg { width: 100%; height: auto; } }
+
+@media (max-width: 991px) { .home-hero-section svg { width: auto; height: 100%; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .home-hero-section svg { position: relative; } }
+
+.home-hero-section svg polygon { pointer-events: all; }
+
+@media (min-width: 992px) and (max-width: 1199px) { .home-hero-section svg polygon { pointer-events: none; } }
+
+.home-hero-section svg polygon.top-right-block.active-first { fill: #0069ff; }
+
+.home-hero-section svg polygon.mid-block:hover, .home-hero-section svg polygon.top-right-block:hover { fill: #0069ff; }
+
+@media (min-width: 768px) and (max-width: 991px) { .home-hero-section svg polygon.mid-block:hover, .home-hero-section svg polygon.top-right-block:hover { fill: #FFFFFF; stroke: #0069ff; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .home-hero-section svg polygon.mid-block:hover, .home-hero-section svg polygon.top-right-block:hover { fill: #FFFFFF; stroke: #0069ff; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .home-hero-section svg polygon.big-section:hover, .home-hero-section svg polygon#mid-second-block:hover, .home-hero-section svg polygon#bottom-big-block:hover { stroke: #0069ff; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .home-hero-section svg polygon.big-section:hover, .home-hero-section svg polygon#mid-second-block:hover, .home-hero-section svg polygon#bottom-big-block:hover { stroke: #0069ff; } }
+
+@media (min-width: 1280px) { .home-hero-section svg { max-height: 62.592vw; } }
+
+.home-hero-section .hero-red-fill { width: 0; height: 0; border-top: 800px solid #0069ff; border-left: 800px solid #0069ff; position: absolute; top: 0; left: 0; }
+
+@media (min-width: 1280px) { .home-hero-section .hero-red-fill { border-top: 62.5vw solid #0069ff; border-left: 62.518vw solid #0069ff; } }
+
+.home-hero-section .hero-white-fill { width: 0; height: 0; border-bottom: 800px solid #FFFFFF; border-right: 800px solid #ffffff00; position: absolute; top: 0; left: 0; z-index: 3; mix-blend-mode: screen; }
+
+@media (min-width: 1280px) { .home-hero-section .hero-white-fill { border-bottom: 62.5vw solid #FFFFFF; border-right: 62.518vw solid #ffffff00; } }
+
+.home-hero-section .hero-small-red-fill { width: 0; height: 0; border-top: 169.04px solid #0069ff; border-left: 169.04px solid #ffffff; position: absolute; top: 171px; right: 320px; }
+
+@media (min-width: 1280px) { .home-hero-section .hero-small-red-fill { border-top: 12.375vw solid #0069ff; border-left: 12.375vw solid #ffffff; top: 12.518vw; right: 25vw; } }
+
+.home-hero-section .hero-big-black-fill { width: 0; height: 0; border-top: 480px solid #000000; border-left: 480px solid #ffffff; position: absolute; z-index: 2; top: 320px; right: 0; }
+
+@media (min-width: 1280px) { .home-hero-section .hero-big-black-fill { border-top: 37.500vw solid #000000; border-left: 37.500vw solid #ffffff; top: 25vw; } }
+
+.home-hero-section .hero-small-black-fill { width: 0; height: 0; border-top: 169.04px solid #000000; border-left: 169.04px solid #ffffff; position: absolute; top: 171px; right: 320px; z-index: 2; }
+
+@media (min-width: 1280px) { .home-hero-section .hero-small-black-fill { border-top: 12.375vw solid #000000; border-left: 12.375vw solid #ffffff; top: 12.518vw; right: 25vw; } }
+
+.home-hero-section .hero-content-wrapper { position: relative; }
+
+@media (max-width: 991px) { .home-hero-section .hero-content-wrapper { overflow: hidden; } }
+
+.home-hero-section .hero-content-wrapper .hero-text-container { position: absolute; top: 0; left: 0; height: 400px; width: 790px; }
+
+@media (min-width: 1280px) { .home-hero-section .hero-content-wrapper .hero-text-container { height: 31.250vw; width: 61.719vw; } }
+
+.home-hero-section .hero-content-wrapper #whitebg { background: #FFFFFF; z-index: 1; }
+
+.home-hero-section .hero-content-wrapper #blackbg { background: black; width: 542px; z-index: 2; }
+
+@media (min-width: 1280px) { .home-hero-section .hero-content-wrapper #blackbg { width: 39.678vw; } }
+
+.home-hero-section .hero-content-wrapper #makered { background-color: #0069ff; mix-blend-mode: screen; z-index: 4; }
+
+.home-hero-section .hero-content-wrapper h1 { font-size: 22.222vw; line-height: 18.056vw; position: relative; color: #0069ff; letter-spacing: -0.04em; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (max-width: 991px) { .home-hero-section .hero-content-wrapper h1 { margin-top: 52.2vw; font-family: "KareliaWeb Medium", sans-serif; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .home-hero-section .hero-content-wrapper h1 { max-width: 700px; margin-top: 32.3vw; } }
+
+@media (min-width: 992px) { .home-hero-section .hero-content-wrapper h1 { max-width: 742px; font-size: 170px; line-height: 140px; letter-spacing: -0.04em; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .home-hero-section .hero-content-wrapper h1 { max-width: 100%; } }
+
+@media (min-width: 1280px) { .home-hero-section .hero-content-wrapper h1 { max-width: 54.319vw; font-size: 12.445vw; line-height: 10.249vw; } }
+
+.home-hero-section .hero-content-wrapper p { float: right; max-width: 70%; position: relative; right: 0; color: #0069ff; margin-top: 24px; }
+
+@media (max-width: 991px) { .home-hero-section .hero-content-wrapper p { margin-top: 6.667vw; } }
+
+@media (min-width: 992px) { .home-hero-section .hero-content-wrapper p { max-width: 362px; right: -110px; margin-top: 35px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .home-hero-section .hero-content-wrapper p { right: -60px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .home-hero-section .hero-content-wrapper p { font-size: 28px; line-height: 38px; max-width: 63%; } }
+
+@media (min-width: 1280px) { .home-hero-section .hero-content-wrapper p { font-size: 1.757vw; line-height: 2.782vw; max-width: 26.501vw; right: -8.053vw; margin-top: 2.734vw; } }
+
+.home-hero-section .hero-content-wrapper.active h1, .home-hero-section .hero-content-wrapper.active p { mix-blend-mode: difference; color: #FFFFFF; z-index: 3; }
+
+@media (min-width: 768px) and (max-width: 991px) { .home-hero-section .hero-content-wrapper.active h1, .home-hero-section .hero-content-wrapper.active p { color: #0069ff; mix-blend-mode: normal; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .home-hero-section .hero-content-wrapper.active h1, .home-hero-section .hero-content-wrapper.active p { color: #0069ff; mix-blend-mode: normal; } }
+
+.home-hero-section .hero-content-wrapper.active-one h1 { mix-blend-mode: difference; color: #FFFFFF; z-index: 3; }
+
+@media (min-width: 768px) and (max-width: 991px) { .home-hero-section .hero-content-wrapper.active-one h1 { color: #0069ff; mix-blend-mode: normal; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .home-hero-section .hero-content-wrapper.active-one h1 { color: #0069ff; mix-blend-mode: normal; } }
+
+.home-hero-section .hero-content-wrapper.active-one p { color: #0069ff; mix-blend-mode: normal; z-index: 6; }
+
+.home-hero-section .hero-text-small-container { top: -85px !important; height: 400px !important; }
+
+@media (min-width: 1280px) { .home-hero-section .hero-text-small-container { top: -6.641vw !important; height: 31.250vw !important; } }
+
+.home-hero-section .hero-text-big-container { height: 690px !important; width: 990px !important; }
+
+@media (min-width: 1280px) { .home-hero-section .hero-text-big-container { height: 53.906vw !important; width: 77.344vw !important; } }

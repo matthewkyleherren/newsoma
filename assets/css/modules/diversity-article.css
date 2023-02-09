@@ -1,0 +1,47 @@
+@media (min-width: 992px) { .diversity-article .diversity-wrapper { max-width: unset; margin: 0; } }
+
+.diversity-article .diversity-wrapper p strong { color: #0069ff; }
+
+@media (max-width: 991px) { .diversity-article .diversity-wrapper .diversity-page-content { padding: 40px 20px; } }
+
+@media (min-width: 992px) { .diversity-article .diversity-wrapper .diversity-page-content { background: #FFFFFF; } }
+
+@media (min-width: 992px) { .diversity-article .diversity-wrapper .diversity-page-content p { margin-bottom: 36px; } }
+
+.diversity-article .diversity-wrapper .diversity-page-content p:first-of-type { color: #ABABAB; font-family: 'KareliaWeb Medium'; }
+
+@media (max-width: 991px) { .diversity-article .diversity-wrapper .diversity-page-content p:first-of-type { line-height: 26px; margin-bottom: 20px; letter-spacing: unset; } }
+
+@media (min-width: 992px) { .diversity-article .diversity-wrapper .diversity-page-content p:first-of-type { font-size: 40px; line-height: 44px; } }
+
+@media (max-width: 991px) { .diversity-article .diversity-wrapper .content-with-heading { padding: 40px 20px 40px 20px; } }
+
+@media (min-width: 992px) { .diversity-article .diversity-wrapper .content-with-heading { padding: 80px 96px 60px 96px; max-width: 1146px; margin: 100px auto 0px auto; } }
+
+.diversity-article .diversity-wrapper .content-with-heading h2 { letter-spacing: -0.04em; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (max-width: 991px) { .diversity-article .diversity-wrapper .content-with-heading h2 { margin-bottom: 20px; font-size: 36px; line-height: 38px; } }
+
+@media (min-width: 992px) { .diversity-article .diversity-wrapper .content-with-heading h2 { font-size: 82px; line-height: 80px; margin-bottom: 20px; } }
+
+.diversity-article .diversity-wrapper .content-with-heading h3 { color: #0069ff; letter-spacing: -0.02em; font-family: "KareliaWeb Medium", sans-serif; }
+
+@media (max-width: 991px) { .diversity-article .diversity-wrapper .content-with-heading h3 { margin: 40px 0 10px 0; font-size: 24px; line-height: 30px; } }
+
+@media (min-width: 992px) { .diversity-article .diversity-wrapper .content-with-heading h3 { font-size: 40px; line-height: 44px; margin: 40px 0px 24px 0px; } }
+
+.diversity-article .diversity-wrapper .content-with-heading ol { list-style: decimal; padding-left: 25px; }
+
+.diversity-article .diversity-wrapper .content-with-heading ol li { color: #0069ff; font-size: 18px; line-height: 28px; }
+
+@media (max-width: 991px) { .diversity-article .diversity-wrapper .policy { background: #FFFFFF; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .diversity-article .diversity-wrapper .policy { margin: 0 auto; max-width: 550px; } }
+
+.diversity-article .diversity-wrapper .policy p { color: #ABABAB; font-family: 'KareliaWeb Medium'; }
+
+@media (max-width: 991px) { .diversity-article .diversity-wrapper .policy p { padding: 0px 20px 60px 20px; line-height: 26px; margin-bottom: 20px; letter-spacing: unset; } }
+
+@media (min-width: 992px) { .diversity-article .diversity-wrapper .policy p { background: #FFFFFF; padding: 0px 96px 80px 96px; max-width: 1154px; margin: 0 auto; font-size: 40px; line-height: 44px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { .diversity-article .diversity-wrapper .policy p { max-width: 850px; margin: 0 auto; padding: 60px 40px 40px 40px; } }
